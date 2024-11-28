@@ -44,7 +44,7 @@ function Navbar() {
                   isActive(link.to)
                     ? "text-opacity-100 max-lg:border-[#2EB2D3] max-lg:border-t-2 max-lg:border-b-2 max-lg:py-4 max-lg:px-10 max-lg:bg-[#2EB2D3] max-lg:bg-opacity-20 max-lg:w-full duration-200"
                     : "text-opacity-50 duration-200 max-lg:py-4 max-lg:px-6 w-full max-lg:border-[#10131A]"
-                }`}
+                } hover:text-opacity-100`}
               >
                 <li>{link.label}</li>
               </Link>
