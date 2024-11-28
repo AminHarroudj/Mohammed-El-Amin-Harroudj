@@ -21,7 +21,7 @@ function Introduce() {
             <button className="text-[#2EB2D3] py-3 px-10 rounded-full border-2 border-[#2EB2D3] hover:text-white hover:bg-[#2EB2D3] hover:scale-105 duration-200">
               Explore Services
             </button>
-            <Button title={"Contact Me"} />
+            <Button title={"Demande Free Consultation"} />
           </div>
         </div>
         <div>
