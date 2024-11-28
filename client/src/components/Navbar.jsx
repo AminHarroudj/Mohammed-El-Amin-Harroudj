@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="flex justify-between items-center mx-4 lg:mx-16 fixed right-0 left-0 top-6 border-2 border-[#2EB2D3] rounded-full py-2 px-6 lg:px-16">
+      <div className="flex justify-between items-center mx-4 lg:mx-16 fixed right-0 left-0 top-6 border-2 border-[#2EB2D3] rounded-full py-2 px-6 lg:px-16 bg-[#2EB2D3] bg-opacity-20 backdrop-blur-md">
         <div className="text-3xl font-bold">AMIN</div>
         <div
           className={`${
