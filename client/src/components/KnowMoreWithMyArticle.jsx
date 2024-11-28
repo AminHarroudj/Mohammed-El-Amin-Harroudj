@@ -5,9 +5,9 @@ import Button from "./Button";
 function KnowMoreWithMyArticle() {
   return (
     <>
-      <div className="px-16 py-32 flex flex-col items-center gap-10">
-        <div className="flex flex-col gap-10 justify-center items-center text-center">
-          <h1 className="text-5xl font-medium">
+      <div className="px-4 lg:px-16 py-16 lg:py-32 flex flex-col items-center gap-6 lg:gap-10">
+        <div className="flex flex-col gap-6 lg:gap-10 justify-center items-center text-center">
+          <h1 className="text-4xl lg:text-5xl font-medium">
             Know More With My <span className="text-[#2EB2D3]">Article</span>
           </h1>
           <p className="text-white text-opacity-50">
@@ -15,7 +15,7 @@ function KnowMoreWithMyArticle() {
             innovate developer
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-6 items-center justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center justify-center">
           <div className="lg:pt-10">
             <ArticleCard
               imgSource={reactImg}

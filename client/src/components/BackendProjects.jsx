@@ -5,7 +5,7 @@ function BackendProjects() {
   return (
     <>
       <div>
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           <div>
             <ProjectCard
               imgSource={adwaveImg}
@@ -15,7 +15,7 @@ function BackendProjects() {
               }
             />
           </div>
-          <div className="pt-10">
+          <div className="lg:pt-10">
             <ProjectCard
               imgSource={adwaveImg}
               title={"Adwave Website"}
@@ -33,7 +33,7 @@ function BackendProjects() {
               }
             />
           </div>
-          <div className="pt-10">
+          <div className="lg:pt-10">
             <ProjectCard
               imgSource={adwaveImg}
               title={"Adwave Website"}

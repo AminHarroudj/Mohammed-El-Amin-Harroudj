@@ -13,9 +13,9 @@ function MyLatestProject() {
 
   return (
     <>
-      <div className="px-16 py-32 flex flex-col gap-10 bg-[#2EB2D3] bg-opacity-10">
-        <div className="flex flex-col gap-10 justify-center items-center text-center">
-          <h1 className="text-5xl font-medium">
+      <div className="px-4 lg:px-16 py-16 lg:py-32 flex flex-col gap-6 lg:gap-10 bg-[#2EB2D3] bg-opacity-10">
+        <div className="flex flex-col gap-6 lg:gap-10 justify-center items-center text-center">
+          <h1 className="text-4xl lg:text-5xl font-medium">
             My <span className="text-[#2EB2D3]">Latest</span> Projects
           </h1>
           <p className="text-white text-opacity-50">
@@ -23,11 +23,11 @@ function MyLatestProject() {
             innovate developer
           </p>
         </div>
-        <div className="flex gap-10 justify-center items-center ">
+        <div className="flex gap-2 lg:gap-10 justify-center items-center ">
           <button
             className={`${
               visibleDiv === 1 ? "bg-[#2EB2D3]" : ""
-            } py-2 px-8 rounded-full hover:text-[white] hover:bg-[#2EB2D3] border-2 border-[#2EB2D3] hover:border-2 hover:border-[#2EB2D3] hover:scale-110 duration-200`}
+            } py-2 px-4 lg:px-8 rounded-full hover:text-[white] hover:bg-[#2EB2D3] border-2 border-[#2EB2D3] hover:border-2 hover:border-[#2EB2D3] hover:scale-110 duration-200`}
             onClick={() => {
               handleButtonClick(1);
             }}
@@ -37,7 +37,7 @@ function MyLatestProject() {
           <button
             className={`${
               visibleDiv === 2 ? "bg-[#2EB2D3]" : ""
-            } py-2 px-8 rounded-full hover:text-[white] hover:bg-[#2EB2D3] border-2 border-[#2EB2D3] hover:border-2 hover:border-[#2EB2D3] hover:scale-110 duration-200`}
+            } py-2 px-4 lg:px-8 rounded-full hover:text-[white] hover:bg-[#2EB2D3] border-2 border-[#2EB2D3] hover:border-2 hover:border-[#2EB2D3] hover:scale-110 duration-200`}
             onClick={() => {
               handleButtonClick(2);
             }}
@@ -47,7 +47,7 @@ function MyLatestProject() {
           <button
             className={`${
               visibleDiv === 3 ? "bg-[#2EB2D3]" : ""
-            } py-2 px-8 rounded-full hover:text-[white] hover:bg-[#2EB2D3] border-2 border-[#2EB2D3] hover:border-2 hover:border-[#2EB2D3] hover:scale-110 duration-200`}
+            } py-2 px-4 lg:px-8 rounded-full hover:text-[white] hover:bg-[#2EB2D3] border-2 border-[#2EB2D3] hover:border-2 hover:border-[#2EB2D3] hover:scale-110 duration-200`}
             onClick={() => {
               handleButtonClick(3);
             }}

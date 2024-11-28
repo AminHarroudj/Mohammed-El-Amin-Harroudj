@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <div className="bg-[#2EB2D3] bg-opacity-10 py-6 flex justify-center
-       items-center gap-2">
+       items-center gap-2 max-lg:text-base">
         <FaRegCopyright />
         <p>Copyright , Mohammed El Amin Harroudj</p>
       </div>

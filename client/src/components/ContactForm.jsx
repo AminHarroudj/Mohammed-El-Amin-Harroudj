@@ -9,7 +9,7 @@ import { FaGithub } from "react-icons/fa";
 function ContactForm() {
   return (
     <>
-      <div className="bg-[#2EB2D3] bg-opacity-20 border-2 border-[#2EB2D3] rounded-xl p-10 grid grid-cols-2 gap-20">
+      <div className="bg-[#2EB2D3] bg-opacity-20 border-2 border-[#2EB2D3] rounded-xl p-6 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20">
         <div className="flex flex-col gap-4">
           <h1 className="text-4xl font-medium text-[#2EB2D3]">Get In Touch</h1>
           <p className="text-white text-opacity-50 text-base">
@@ -68,7 +68,7 @@ function ContactForm() {
             </form>
           </div>
         </div>
-        <div className="flex flex-col gap-10 items-center">
+        <div className="flex flex-col gap-6 lg:gap-10 items-center">
           <div>
             <img src={contactIcon} alt="" className="w-[300px]" />
           </div>

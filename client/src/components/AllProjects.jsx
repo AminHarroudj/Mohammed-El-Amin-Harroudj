@@ -4,7 +4,7 @@ import adwaveImg from "../assets/adwave.png";
 function AllProjects() {
   return (
     <>
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         <div>
           <ProjectCard
             imgSource={adwaveImg}

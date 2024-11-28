@@ -8,8 +8,8 @@ import reactrouterIcon from "../assets/react-router-svgrepo-com.svg";
 function Technologies() {
   return (
     <>
-      <div className="flex flex-col gap-10">
-        <h1 className="text-4xl font-medium">Additional Technologies</h1>
+      <div className="flex flex-col gap-6 lg:gap-10">
+        <h1 className="text-3xl lg:text-4xl font-medium">Additional Technologies</h1>
         <div className="grid grid-cols-3 gap-6">
           <Tech title={"Git"}>
             <img src={gitIcon} alt="" />

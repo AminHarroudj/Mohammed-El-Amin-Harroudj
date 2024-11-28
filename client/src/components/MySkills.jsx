@@ -11,8 +11,8 @@ import Skill from "./Skill";
 function MySkills() {
   return (
     <>
-      <div className="flex flex-col gap-10">
-        <h1 className="text-4xl font-medium">My Skills</h1>
+      <div className="flex flex-col gap-6 lg:gap-10">
+        <h1 className="text-3xl lg:text-4xl font-medium">My Skills</h1>
         <div className="flex flex-col gap-4">
           <Skill title={"HTML"} percentage={90}>
             <img src={htmlIcon} alt="" />

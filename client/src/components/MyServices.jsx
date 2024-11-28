@@ -8,9 +8,9 @@ import { PiProjectorScreenChartLight } from "react-icons/pi";
 function MyServices() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-10 px-16 py-32">
-        <div className="flex flex-col gap-10 items-start lg:pt-16">
-          <h1 className="text-5xl font-medium">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 px-4 lg:px-16 py-16 lg:py-32">
+        <div className="flex flex-col gap-6 lg:gap-10 items-start lg:pt-16 max-lg:text-center max-lg:items-center">
+          <h1 className="text-4xl lg:text-5xl font-medium">
             My <span className="text-[#2EB2D3]">Services</span>
           </h1>
           <p className="text-white text-opacity-50">
@@ -24,8 +24,8 @@ function MyServices() {
           </p>
           <Button title={"Reade More"} />
         </div>
-        <div className="grid grid-cols-2 gap-10">
-          <div className="flex flex-col gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10">
+          <div className="flex flex-col gap-6 lg:gap-10">
             <ServiceCard
               title={"Frontend Develop"}
               description={
@@ -43,7 +43,7 @@ function MyServices() {
               <MdOutlineDesignServices />
             </ServiceCard>
           </div>
-          <div className="flex flex-col gap-10 lg:pt-10">
+          <div className="flex flex-col gap-6 lg:gap-10 lg:pt-10">
             <ServiceCard
               title={"Backend Develop"}
               description={

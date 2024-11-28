@@ -4,9 +4,9 @@ import Button from "../components/Button";
 function Introduce() {
   return (
     <>
-      <div className="flex items-center pt-32 px-16 gap-20 bg-[#2EB2D3] bg-opacity-10 h-screen">
-        <div className="flex flex-col gap-10">
-          <div className="text-6xl font-medium flex flex-col gap-4">
+      <div className="flex max-lg:flex-col items-center pt-32 px-4 lg:px-16 gap-20 bg-[#2EB2D3] bg-opacity-10 lg:h-screen">
+        <div className="flex flex-col gap-6 lg:gap-10 max-lg:text-center">
+          <div className="text-4xl lg:text-6xl font-medium flex flex-col gap-4">
             <h1>
               I'M <span className="text-[#2EB2D3]">WEB DEVELOPER</span>
             </h1>
@@ -17,7 +17,7 @@ function Introduce() {
             passionate and innovative developer dedicated to crafting immersive
             digital experiences. Welcome to my online abode
           </p>
-          <div className="flex gap-6">
+          <div className="flex max-lg:flex-col gap-6">
             <button className="text-[#2EB2D3] py-3 px-10 rounded-full border-2 border-[#2EB2D3] hover:text-white hover:bg-[#2EB2D3] hover:scale-105 duration-200">
               Explore Services
             </button>

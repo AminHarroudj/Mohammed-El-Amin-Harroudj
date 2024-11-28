@@ -1,7 +1,7 @@
 function Numbers() {
   return (
     <>
-      <div className="bg-[#2EB2D3] bg-opacity-10 px-16 grid grid-cols-4 items-center justify-center text-center py-16">
+      <div className="bg-[#2EB2D3] bg-opacity-10 px-2 lg:px-16 grid grid-cols-2 lg:grid-cols-4 max-lg:gap-6 items-center justify-center text-center py-16">
         <div className="flex flex-col gap-4">
           <h1 className="text-6xl font-medium">1+</h1>
           <p>Years Experience</p>
