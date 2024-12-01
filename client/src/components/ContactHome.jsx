@@ -3,7 +3,7 @@ import Button from "./Button";
 function ContactHome() {
   return (
     <>
-      <div className="flex max-lg:flex-col items-center pt-32 lg:pt-56 max-lg:pb-10 lg:pb-36 px-4 lg:px-16 bg-[#2EB2D3] bg-opacity-10">
+      <div className="flex max-lg:flex-col items-center pt-32 lg:pt-56 max-lg:pb-10 lg:pb-36 px-4 lg:px-16">
         <div className="flex flex-col gap-6 lg:gap-10 text-center items-center">
           <div className="text-4xl lg:text-6xl font-medium flex flex-col gap-4">
             <h1>

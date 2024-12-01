@@ -1,5 +1,4 @@
 import Introduce from "../components/Introduce";
-import KnowMoreWithMyArticle from "../components/KnowMoreWithMyArticle";
 import MoreAboutMe from "../components/MoreAboutMe";
 import MyLatestProject from "../components/MyLatestProject";
 import MyServices from "../components/MyServices";
@@ -15,7 +14,6 @@ function Home() {
         <Numbers />
         <MoreAboutMe />
         <MyLatestProject />
-        <KnowMoreWithMyArticle />
         <ContactMe />
       </div>
     </>
