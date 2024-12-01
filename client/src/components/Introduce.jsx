@@ -4,7 +4,7 @@ import Button from "../components/Button";
 function Introduce() {
   return (
     <>
-      <div className="flex max-lg:flex-col items-center pt-32 px-4 lg:px-16 gap-20 bg-[#2EB2D3] bg-opacity-10 lg:h-screen">
+      <div className="flex max-lg:flex-col-reverse items-center pt-32 max-lg:pb-10 px-4 lg:px-16 gap-10 lg:gap-20 bg-[#2EB2D3] bg-opacity-10 lg:h-screen">
         <div className="flex flex-col gap-6 lg:gap-10 max-lg:text-center">
           <div className="text-4xl lg:text-6xl font-medium flex flex-col gap-4">
             <h1>

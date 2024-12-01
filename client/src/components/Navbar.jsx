@@ -16,7 +16,7 @@ function Navbar() {
         <div
           className={`${
             open ? "flex" : "hidden"
-          } lg:flex justify-start gap-6 lg:gap-16 text-white max-lg:absolute max-lg:flex-col max-lg:top-[-26px] max-lg:right-[-9px] max-lg:left-36 max-lg:border-[#2EB2D3] max-lg:border-2 max-lg:h-screen max-lg:bg-[#10131A] max-lg:pt-8`}
+          } lg:flex justify-start gap-6 lg:gap-16 text-white max-lg:absolute max-lg:flex-col max-lg:top-[-26px] max-lg:right-[-17px] max-lg:left-36 max-lg:border-[#2EB2D3] max-lg:border-2 max-lg:h-screen max-lg:bg-[#10131A] max-lg:pt-8`}
         >
           <IoIosClose
             className="text-3xl absolute top-3 left-3 lg:hidden"
