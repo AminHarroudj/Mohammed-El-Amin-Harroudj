@@ -12,9 +12,10 @@ function PortfolioHome() {
             <h1>Scroll To See My Projects</h1>
           </div>
           <p className="text-white text-opacity-50">
-            Greetings, fellow digital explorers! I am Mohammed El Amin, a
-            passionate and innovative developer dedicated to crafting immersive
-            digital experiences. Welcome to my online abode
+            Here, you can explore a diverse selection of my projects that
+            showcase my expertise in both frontend and backend development. Each
+            project reflects my ability to create innovative, user-friendly web
+            applications that solve real-world problems
           </p>
           <div>
             <Button title={"Demande Free Consultation"} />

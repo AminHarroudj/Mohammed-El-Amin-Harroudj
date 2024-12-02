@@ -18,16 +18,23 @@ function ServicesSection() {
             </h1>
             <ServicePresentation
               number={"01"}
-              title={"Portfolio"}
+              title={"Responsive Website"}
               description={
-                "Portfolio web site very exciting and intractive for take a good job and good salary"
+                "Ensuring that the website or application is fully functional and looks great on all devices (desktops, tablets, smartphones)"
               }
             />
             <ServicePresentation
-              number={"01"}
-              title={"Portfolio"}
+              number={"02"}
+              title={"Performance Optimization"}
               description={
-                "Portfolio web site very exciting and intractive for take a good job and good salary"
+                "Improving the load speed and responsiveness of the site through techniques like image optimization, lazy loading, and code splitting"
+              }
+            />
+            <ServicePresentation
+              number={"03"}
+              title={"SEO Optimization"}
+              description={
+                "Implementing on-page SEO techniques to improve search engine rankings, such as optimizing metadata, content, and structure"
               }
             />
             <Button title={"Demand Free Consultation"} />
@@ -41,16 +48,30 @@ function ServicesSection() {
             </h1>
             <ServicePresentation
               number={"01"}
-              title={"Portfolio"}
+              title={"Database Management"}
               description={
-                "Portfolio web site very exciting and intractive for take a good job and good salary"
+                "Setting up and managing databases to store and retrieve data (MySQL, MongoDB)"
               }
             />
             <ServicePresentation
-              number={"01"}
-              title={"Portfolio"}
+              number={"02"}
+              title={"API Development"}
               description={
-                "Portfolio web site very exciting and intractive for take a good job and good salary"
+                "Creating APIs to enable communication between the frontend and backend"
+              }
+            />
+            <ServicePresentation
+              number={"03"}
+              title={"Authentication & Authorization"}
+              description={
+                "Implementing user authentication (login, registration) and authorization (permissions, access control) to ensure security"
+              }
+            />
+            <ServicePresentation
+              number={"04"}
+              title={"Email Services"}
+              description={
+                "Integrating email services for notifications, confirmations, and alerts"
               }
             />
             <Button title={"Demand Free Consultation"} />
@@ -70,16 +91,23 @@ function ServicesSection() {
             </h1>
             <ServicePresentation
               number={"01"}
-              title={"Portfolio"}
+              title={"Ecommerce Website"}
               description={
-                "Portfolio web site very exciting and intractive for take a good job and good salary"
+                "A fully functional online store with product listings, a shopping cart, and order management system"
               }
             />
             <ServicePresentation
-              number={"01"}
-              title={"Portfolio"}
+              number={"02"}
+              title={"Content Management System"}
               description={
-                "Portfolio web site very exciting and intractive for take a good job and good salary"
+                "A platform for managing digital content such as articles, blogs, videos, and images, with user roles and permissions, a dashboard, and SEO optimization features"
+              }
+            />
+            <ServicePresentation
+              number={"03"}
+              title={"Subscription Service Website"}
+              description={
+                "A platform for subscription-based services (e.g., digital content, physical products), with recurring billing, user account management, and personalized recommendations."
               }
             />
             <Button title={"Demand Free Consultation"} />

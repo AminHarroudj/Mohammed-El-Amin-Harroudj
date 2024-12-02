@@ -13,8 +13,7 @@ function ContactForm() {
         <div className="flex flex-col gap-4">
           <h1 className="text-4xl font-medium text-[#2EB2D3]">Get In Touch</h1>
           <p className="text-white text-opacity-50 text-base">
-            My experience and knowledg is dedicated to providing exceptional
-            customer service.
+            Feel free to reach out to me here
           </p>
           <div>
             <form action="" className="flex flex-col gap-4 items-end">

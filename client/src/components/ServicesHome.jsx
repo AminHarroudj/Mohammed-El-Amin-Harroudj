@@ -12,9 +12,11 @@ function ServicesHome() {
             <h1>For Web Development</h1>
           </div>
           <p className="text-white text-opacity-50">
-            Greetings, fellow digital explorers! I am Mohammed El Amin, a
-            passionate and innovative developer dedicated to crafting immersive
-            digital experiences. Welcome to my online abode
+            Looking to bring your web project to life? I'm here to help. My web
+            development skills transform ideas into reality. I'm known for
+            delivering projects on time and within budget. My clients appreciate
+            my meticulous attention to detail, creativity, and commitment to
+            excellence.
           </p>
           <div>
             <Button title={"Demande Free Consultation"} />

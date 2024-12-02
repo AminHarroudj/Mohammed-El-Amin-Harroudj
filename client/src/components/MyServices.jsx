@@ -14,13 +14,15 @@ function MyServices() {
             My <span className="text-[#2EB2D3]">Services</span>
           </h1>
           <p className="text-white text-opacity-50">
-            Greetings, fellow digital explorers! I am Amin , a passionate and
-            innovative developer dedicated to crafting immersive digital
-            experiences.Welcome to my online abode
+            Looking to bring your web project to life? I'm here to help. My web
+            development skills transform ideas into reality. I'm known for
+            delivering projects on time and within budget. My clients appreciate
+            my meticulous attention to detail, creativity, and commitment to
+            excellence.
           </p>
           <p className="text-white text-opacity-50">
-            Greetings, fellow digital explorers! I am Amin , a passionate and
-            innovative developer
+            I'm committed to staying up-to-date with the latest web development
+            trends to deliver cutting-edge solutions.
           </p>
           <Button title={"Reade More"} />
         </div>
@@ -29,7 +31,7 @@ function MyServices() {
             <ServiceCard
               title={"Frontend Develop"}
               description={
-                "Greetings, fellow digital explorers! I am Amin , a passionate"
+                "Crafting pixel-perfect, responsive, and engaging user interfaces with React JS"
               }
             >
               <TbDeviceDesktopCode />
@@ -37,7 +39,7 @@ function MyServices() {
             <ServiceCard
               title={"UI/UX Design"}
               description={
-                "Greetings, fellow digital explorers! I am Amin , a passionate"
+                "Designing user-centered experiences that enhance product usability."
               }
             >
               <MdOutlineDesignServices />
@@ -47,7 +49,7 @@ function MyServices() {
             <ServiceCard
               title={"Backend Develop"}
               description={
-                "Greetings, fellow digital explorers! I am Amin , a passionate"
+                "Building robust and scalable backend systems with Node.js , Express Js and Mongo DB"
               }
             >
               <LiaLaptopCodeSolid />
@@ -56,7 +58,7 @@ function MyServices() {
             <ServiceCard
               title={"Project Manegment"}
               description={
-                "Greetings, fellow digital explorers! I am Amin , a passionate"
+                "Managing projects efficiently from inception to completion, ensuring client satisfaction"
               }
             >
               <PiProjectorScreenChartLight />

@@ -11,8 +11,7 @@ function MoreAboutMe() {
             More <span className="text-[#2EB2D3]">About</span> Me
           </h1>
           <p className="text-white text-opacity-50">
-            Greeting, fellow digital explorers! I am Mohammed , a passionate
-            developer
+          Here, I showcase my technical skills that demonstrate my expertise in building modern, user-focused web applications
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 pt-6">

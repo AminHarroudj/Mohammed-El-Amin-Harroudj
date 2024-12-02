@@ -9,8 +9,8 @@ function ContactMe() {
             Here You Can <span className="text-[#2EB2D3]">Contact</span> Me
           </h1>
           <p className="text-white text-opacity-50">
-            Greeting, fellow digital explorers! I am Mohammed , a passionate
-            developer
+            Here, you can easily get in touch with me to discuss your project
+            ideas, collaboration opportunities, or any inquiries you may have
           </p>
         </div>
         <div>

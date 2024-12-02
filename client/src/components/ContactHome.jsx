@@ -12,9 +12,10 @@ function ContactHome() {
             <h1>To Help You For Your Business</h1>
           </div>
           <p className="text-white text-opacity-50">
-            Greetings, fellow digital explorers! I am Mohammed El Amin, a
-            passionate and innovative developer dedicated to crafting immersive
-            digital experiences. Welcome to my online abode
+            If you're looking for a reliable and skilled web developer to bring
+            your ideas to life and create impactful, custom web solutions, feel
+            free to reach out. I’m here to help you turn your vision into
+            reality with quality, efficiency, and attention to detail
           </p>
           <div>
             <Button title={"Demande Free Consultation"} />

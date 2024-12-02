@@ -19,8 +19,7 @@ function MyLatestProject() {
             My <span className="text-[#2EB2D3]">Latest</span> Projects
           </h1>
           <p className="text-white text-opacity-50">
-            Greeting, fellow digital explorers! I am Mohammed , a passionate and
-            innovate developer
+          Here, I present a selection of my projects that highlight my ability to transform ideas into functional, visually appealing, and user-centric web solutions
           </p>
         </div>
         <div className="flex gap-2 lg:gap-10 justify-center items-center ">
