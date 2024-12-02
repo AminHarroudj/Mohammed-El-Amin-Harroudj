@@ -14,7 +14,7 @@ function Technologies() {
         <h1 className="text-3xl lg:text-4xl font-medium">
           Additional Technologies
         </h1>
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
           <Tech title={"Git"}>
             <img src={gitIcon} alt="" />
           </Tech>
