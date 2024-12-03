@@ -1,5 +1,7 @@
 import ProjectCard from "./ProjectCard";
-import adwaveImg from "../assets/adwave.png";
+import adwaveMockup from "../assets/adwaveMockup.png";
+import marketingMockup from "../assets/marketingMockup.png";
+import portfolioMockup from "../assets/portfolioMockup.png";
 import { motion } from "motion/react";
 
 function FrontendProjects() {
@@ -21,7 +23,7 @@ function FrontendProjects() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           <div>
             <ProjectCard
-              imgSource={adwaveImg}
+              imgSource={adwaveMockup}
               title={"Adwave Website"}
               description={
                 "Frontend project for an algerian entreprise of digital marketing"
@@ -32,7 +34,7 @@ function FrontendProjects() {
           </div>
           <div className="lg:pt-10">
             <ProjectCard
-              imgSource={adwaveImg}
+              imgSource={marketingMockup}
               title={"Marketing Agency"}
               description={
                 "Frontend project for an algerian entreprise of digital marketing"
@@ -45,7 +47,7 @@ function FrontendProjects() {
           </div>
           <div>
             <ProjectCard
-              imgSource={adwaveImg}
+              imgSource={portfolioMockup}
               title={"My Portfolio"}
               description={
                 "Frontend project for an algerian entreprise of digital marketing"

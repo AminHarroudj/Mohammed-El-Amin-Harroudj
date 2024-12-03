@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
-import adwaveImg from "../assets/adwave.png";
 import { motion } from "motion/react";
+import basmaMockup from "../assets/basmaMockup.png";
 
 function BackendProjects() {
   return (
@@ -21,7 +21,7 @@ function BackendProjects() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           <div>
             <ProjectCard
-              imgSource={adwaveImg}
+              imgSource={basmaMockup}
               title={"Club Basma"}
               description={
                 "Frontend project for an algerian entreprise of digital marketing"
