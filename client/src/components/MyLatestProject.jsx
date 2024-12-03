@@ -42,11 +42,11 @@ function MyLatestProject() {
         <motion.div
           className="flex gap-2 lg:gap-10 justify-center items-center"
           initial={{
-            x: +50,
+            y: +50,
             opacity: 0,
           }}
           whileInView={{
-            x: 0,
+            y: 0,
             opacity: 1,
           }}
           transition={{

@@ -12,11 +12,11 @@ function ServicesSection() {
         <motion.div
           className="flex flex-col lg:grid lg:grid-cols-2 items-center lg:gap-20"
           initial={{
-            x: 50,
+            y: 50,
             opacity: 0,
           }}
           whileInView={{
-            x: 0,
+            y: 0,
             opacity: 1,
           }}
           transition={{
@@ -58,11 +58,11 @@ function ServicesSection() {
         <motion.div
           className="flex flex-col-reverse lg:grid lg:grid-cols-2 items-center lg:gap-20"
           initial={{
-            x: -50,
+            y: 50,
             opacity: 0,
           }}
           whileInView={{
-            x: 0,
+            y: 0,
             opacity: 1,
           }}
           transition={{
@@ -111,11 +111,11 @@ function ServicesSection() {
         <motion.div
           className="flex flex-col lg:grid lg:grid-cols-2 items-center lg:gap-20"
           initial={{
-            x: 50,
+            y: 50,
             opacity: 0,
           }}
           whileInView={{
-            x: 0,
+            y: 0,
             opacity: 1,
           }}
           transition={{

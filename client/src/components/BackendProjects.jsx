@@ -7,11 +7,11 @@ function BackendProjects() {
     <>
       <motion.div
         initial={{
-          x: +50,
+          y: +50,
           opacity: 0,
         }}
         whileInView={{
-          x: 0,
+          y: 0,
           opacity: 1,
         }}
         transition={{

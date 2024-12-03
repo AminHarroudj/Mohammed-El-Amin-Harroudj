@@ -14,11 +14,11 @@ function MyServices() {
         <motion.div
           className="flex flex-col gap-6 lg:gap-10 items-start lg:pt-16 max-lg:text-center max-lg:items-center"
           initial={{
-            x: -50,
+            y: -50,
             opacity: 0,
           }}
           whileInView={{
-            x: 0,
+            y: 0,
             opacity: 1,
           }}
           transition={{
@@ -46,10 +46,10 @@ function MyServices() {
         <motion.div
           className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10"
           initial={{
-            x: 50,
+            y: 50,
           }}
           whileInView={{
-            x: 0,
+            y: 0,
           }}
           transition={{
             duration: 1,

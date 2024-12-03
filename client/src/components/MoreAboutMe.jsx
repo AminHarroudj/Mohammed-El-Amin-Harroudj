@@ -32,11 +32,11 @@ function MoreAboutMe() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 pt-6">
           <motion.div
             initial={{
-              x: -50,
+              y: -50,
               opacity: 0,
             }}
             whileInView={{
-              x: 0,
+              y: 0,
               opacity: 1,
             }}
             transition={{
@@ -48,11 +48,11 @@ function MoreAboutMe() {
           <motion.div
             className="grid grid-cols-1 max-lg:gap-10"
             initial={{
-              x: 50,
+              y: 50,
               opacity: 0,
             }}
             whileInView={{
-              x: 0,
+              y: 0,
               opacity: 1,
             }}
             transition={{

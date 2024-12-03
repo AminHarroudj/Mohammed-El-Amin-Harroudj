@@ -8,11 +8,11 @@ function AllProjects() {
       <motion.div
         className="grid grid-cols-1 lg:grid-cols-4 gap-6"
         initial={{
-          x: +50,
+          y: +50,
           opacity: 0,
         }}
         whileInView={{
-          x: 0,
+          y: 0,
           opacity: 1,
         }}
         transition={{
