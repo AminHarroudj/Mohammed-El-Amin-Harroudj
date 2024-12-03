@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 function ServiceCard({ children, title, description }) {
   return (
     <>

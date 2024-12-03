@@ -3,6 +3,8 @@ import AllProjects from "./AllProjects";
 import FrontendProjects from "./FrontendProjects";
 import BackendProjects from "./BackendProjects";
 import Button from "./Button";
+import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 
 function MyLatestProject() {
   const [visibleDiv, setVisibleDiv] = useState(1);
@@ -13,16 +15,44 @@ function MyLatestProject() {
 
   return (
     <>
-      <div className="px-4 lg:px-16 py-16 lg:py-32 flex flex-col gap-6 lg:gap-10 bg-[#2EB2D3] bg-opacity-10">
-        <div className="flex flex-col gap-6 lg:gap-10 justify-center items-center text-center">
+      <motion.div className="px-4 lg:px-16 py-16 lg:py-32 flex flex-col gap-6 lg:gap-10 bg-[#2EB2D3] bg-opacity-10">
+        <motion.div
+          className="flex flex-col gap-6 lg:gap-10 justify-center items-center text-center"
+          initial={{
+            y: -50,
+            opacity: 0,
+          }}
+          whileInView={{
+            y: 0,
+            opacity: 1,
+          }}
+          transition={{
+            duration: 1,
+          }}
+        >
           <h1 className="text-4xl lg:text-5xl font-medium">
             My <span className="text-[#2EB2D3]">Latest</span> Projects
           </h1>
           <p className="text-white text-opacity-50">
-          Here, I present a selection of my projects that highlight my ability to transform ideas into functional, visually appealing, and user-centric web solutions
+            Here, I present a selection of my projects that highlight my ability
+            to transform ideas into functional, visually appealing, and
+            user-centric web solutions
           </p>
-        </div>
-        <div className="flex gap-2 lg:gap-10 justify-center items-center ">
+        </motion.div>
+        <motion.div
+          className="flex gap-2 lg:gap-10 justify-center items-center"
+          initial={{
+            x: +50,
+            opacity: 0,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+          }}
+          transition={{
+            duration: 1,
+          }}
+        >
           <button
             className={`${
               visibleDiv === 1 ? "bg-[#2EB2D3]" : ""
@@ -53,13 +83,15 @@ function MyLatestProject() {
           >
             Backend
           </button>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div>
           {visibleDiv === 1 && (
             <div>
               <AllProjects />
               <div className="flex items-center justify-center mt-10">
-                <Button title={"See More Projects"} />
+                <Link to={"/portfolio"}>
+                  <Button title={"See More Projects"} />
+                </Link>
               </div>
             </div>
           )}
@@ -67,7 +99,9 @@ function MyLatestProject() {
             <div>
               <FrontendProjects />
               <div className="flex items-center justify-center mt-10">
-                <Button title={"See More Projects"} />
+                <Link to={"/portfolio"}>
+                  <Button title={"See More Projects"} />
+                </Link>
               </div>
             </div>
           )}
@@ -75,12 +109,14 @@ function MyLatestProject() {
             <div>
               <BackendProjects />
               <div className="flex items-center justify-center mt-10">
-                <Button title={"See More Projects"} />
+                <Link to={"/portfolio"}>
+                  <Button title={"See More Projects"} />
+                </Link>
               </div>
             </div>
           )}
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </>
   );
 }

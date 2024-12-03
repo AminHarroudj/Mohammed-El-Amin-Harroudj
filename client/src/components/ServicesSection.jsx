@@ -3,12 +3,26 @@ import backendImg from "../assets/backend-svgrepo-com.svg";
 import ecommerceImg from "../assets/ecommerce-svgrepo-com.svg";
 import ServicePresentation from "./ServicePresentation";
 import Button from "./Button";
+import { motion } from "motion/react";
 
 function ServicesSection() {
   return (
     <>
-      <div className="flex flex-col gap-6 items-center pt-16 lg:pt-32 px-4 lg:px-16 max-lg:text-center">
-        <div className="flex flex-col lg:grid lg:grid-cols-2 items-center lg:gap-20">
+      <div className="flex flex-col gap-6 lg:gap-10 items-center pt-16 lg:pt-32 px-4 lg:px-16 max-lg:text-center">
+        <motion.div
+          className="flex flex-col lg:grid lg:grid-cols-2 items-center lg:gap-20"
+          initial={{
+            x: 50,
+            opacity: 0,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+          }}
+          transition={{
+            duration: 1,
+          }}
+        >
           <div className="">
             <img src={frontendImg} alt="" />
           </div>
@@ -39,9 +53,22 @@ function ServicesSection() {
             />
             <Button title={"Demand Free Consultation"} />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 items-center lg:gap-20">
+        <motion.div
+          className="flex flex-col-reverse lg:grid lg:grid-cols-2 items-center lg:gap-20"
+          initial={{
+            x: -50,
+            opacity: 0,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+          }}
+          transition={{
+            duration: 1,
+          }}
+        >
           <div className="flex flex-col items-center lg:items-start gap-6">
             <h1 className="text-4xl lg:text-5xl font-medium">
               <span className="text-[#2EB2D3]">Backend </span> Development
@@ -79,11 +106,24 @@ function ServicesSection() {
           <div className="">
             <img src={backendImg} alt="" />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="flex flex-col lg:grid lg:grid-cols-2 items-center lg:gap-20">
+        <motion.div
+          className="flex flex-col lg:grid lg:grid-cols-2 items-center lg:gap-20"
+          initial={{
+            x: 50,
+            opacity: 0,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+          }}
+          transition={{
+            duration: 1,
+          }}
+        >
           <div className="">
-            <img src={frontendImg} alt="" />
+            <img src={ecommerceImg} alt="" />
           </div>
           <div className="flex flex-col items-center lg:items-start gap-6">
             <h1 className="text-4xl lg:text-5xl font-medium">
@@ -112,7 +152,7 @@ function ServicesSection() {
             />
             <Button title={"Demand Free Consultation"} />
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );
