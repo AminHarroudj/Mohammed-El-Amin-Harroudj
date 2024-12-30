@@ -1,10 +1,8 @@
 import Tech from "./Tech";
 import typescriptIcon from "../assets/typescript-svgrepo-com.svg";
-import nodeIcon from "../assets/node-js-svgrepo-com.svg";
-import expressIcon from "../assets/express-svgrepo-com.svg";
-import mongoIcon from "../assets/mongo-svgrepo-com.svg";
 import phpIcon from "../assets/php-1-logo-svgrepo-com.svg";
 import mysqlIcon from "../assets/mysql-logo-svgrepo-com.svg";
+import firebaseIcon from "../assets/firebase-svgrepo-com.svg";
 
 function SkillsInProgress() {
   return (
@@ -15,20 +13,14 @@ function SkillsInProgress() {
           <Tech title={"Type Script"}>
             <img src={typescriptIcon} alt="" />
           </Tech>
-          <Tech title={"Node JS"}>
-            <img src={nodeIcon} alt="" />
-          </Tech>
-          <Tech title={"Express JS"}>
-            <img src={expressIcon} alt="" />
-          </Tech>
-          <Tech title={"Mongo DB"}>
-            <img src={mongoIcon} alt="" />
+          <Tech title={"My SQL"}>
+            <img src={mysqlIcon} alt="" />
           </Tech>
           <Tech title={"PHP"}>
             <img src={phpIcon} alt="" />
           </Tech>
-          <Tech title={"My SQL"}>
-            <img src={mysqlIcon} alt="" />
+          <Tech title={"Firebase"}>
+            <img src={firebaseIcon} alt="" />
           </Tech>
         </div>
       </div>

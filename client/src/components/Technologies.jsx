@@ -6,6 +6,7 @@ import githubIcon from "../assets/github-svgrepo-com.svg";
 import reactrouterIcon from "../assets/react-router-svgrepo-com.svg";
 import framerIcon from "../assets/framer-svgrepo-com.svg";
 import viteIcon from "../assets/vite-svgrepo-com.svg";
+import tailwindcssIcon from "../assets/tailwind-css-svgrepo-com.svg";
 
 function Technologies() {
   return (
@@ -18,15 +19,19 @@ function Technologies() {
           <Tech title={"Git"}>
             <img src={gitIcon} alt="" />
           </Tech>
+          <Tech title={"Git Hub"}>
+            <img src={githubIcon} alt="" />
+          </Tech>
+          <Tech title={"Tailwind CSS"}>
+            <img src={tailwindcssIcon} alt="" />
+          </Tech>
           <Tech title={"Wordpress"}>
             <img src={wordpressIcon} alt="" />
           </Tech>
           <Tech title={"Figma"}>
             <img src={figmaIcon} alt="" />
           </Tech>
-          <Tech title={"Git Hub"}>
-            <img src={githubIcon} alt="" />
-          </Tech>
+
           <Tech title={"React Router"}>
             <img src={reactrouterIcon} alt="" />
           </Tech>

@@ -5,6 +5,9 @@ import reactIcon from "../assets/react-svgrepo-com.svg";
 import tailwindcssIcon from "../assets/tailwind-css-svgrepo-com.svg";
 import uiIcon from "../assets/ui-states-svgrepo-com.svg";
 import uxIcon from "../assets/ux-mobile-svgrepo-com.svg";
+import nodeIcon from "../assets/node-js-svgrepo-com.svg";
+import expressIcon from "../assets/express-svgrepo-com.svg";
+import mongoIcon from "../assets/mongo-svgrepo-com.svg";
 
 import Skill from "./Skill";
 
@@ -23,17 +26,17 @@ function MySkills() {
           <Skill title={"Java Script"} percentage={80}>
             <img src={javascriptIcon} alt="" />
           </Skill>
-          <Skill title={"React JS"} percentage={70}>
+          <Skill title={"React JS"} percentage={80}>
             <img src={reactIcon} alt="" />
           </Skill>
-          <Skill title={"Tailwind CSS"} percentage={90}>
-            <img src={tailwindcssIcon} alt="" />
+          <Skill title={"Node JS"} percentage={80}>
+            <img src={nodeIcon} alt="" />
           </Skill>
-          <Skill title={"User Interface"} percentage={70}>
-            <img src={uiIcon} alt="" />
+          <Skill title={"Express JS"} percentage={80}>
+            <img src={expressIcon} alt="" />
           </Skill>
-          <Skill title={"User Experience"} percentage={60}>
-            <img src={uxIcon} alt="" />
+          <Skill title={"Mongo DB"} percentage={80}>
+            <img src={mongoIcon} alt="" />
           </Skill>
         </div>
       </div>
