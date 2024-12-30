@@ -1,6 +1,5 @@
 import ProjectCard from "./ProjectCard";
 import adwaveMockup from "../assets/adwaveMockup.png";
-import marketingMockup from "../assets/marketingMockup.png";
 import portfolioMockup from "../assets/portfolioMockup.png";
 import { motion } from "motion/react";
 
@@ -28,32 +27,15 @@ function FrontendProjects() {
               description={
                 "Frontend project for an algerian entreprise of digital marketing"
               }
-              github={"https://github.com/AminHarroudj/Adwave"}
               livepreview={"https://adwave.agency/"}
             />
           </div>
           <div className="lg:pt-10">
             <ProjectCard
-              imgSource={marketingMockup}
-              title={"Marketing Agency"}
-              description={
-                "Frontend project for an algerian entreprise of digital marketing"
-              }
-              github={
-                "https://github.com/AminHarroudj/Digital-Marketing-Agency"
-              }
-              livepreview={"https://digital-marketing-agency-flame.vercel.app/"}
-            />
-          </div>
-          <div>
-            <ProjectCard
               imgSource={portfolioMockup}
               title={"My Portfolio"}
               description={
                 "Frontend project for an algerian entreprise of digital marketing"
-              }
-              github={
-                "https://github.com/AminHarroudj/Mohammed-El-Amin-Harroudj"
               }
               livepreview={"https://mohammed-el-amin-harroudj.vercel.app/"}
             />

@@ -1,6 +1,6 @@
-import ProjectCard from "./ProjectCard";
 import { motion } from "motion/react";
-import basmaMockup from "../assets/basmaMockup.png";
+import ProjectCard from "./ProjectCard";
+import goatstoreImg from "../assets/goatstore.png";
 
 function BackendProjects() {
   return (
@@ -20,18 +20,17 @@ function BackendProjects() {
       >
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           <div>
-            <ProjectCard
-              imgSource={basmaMockup}
-              title={"Club Basma"}
-              description={
-                "Frontend project for an algerian entreprise of digital marketing"
-              }
-              github={"https://github.com/AminHarroudj/Club-Basma"}
-              livepreview={"https://club-basma.vercel.app/"}
-            />
+            <div>
+              <ProjectCard
+                imgSource={goatstoreImg}
+                title={"E-commerce Website"}
+                description={
+                  "E-commerce website for an algerian entreprise of sport clouths"
+                }
+                livepreview={"https://goat-store-brown.vercel.app/"}
+              />
+            </div>
           </div>
-          <div className="lg:pt-10"></div>
-          <div></div>
           <div className="lg:pt-10"></div>
         </div>
       </motion.div>
