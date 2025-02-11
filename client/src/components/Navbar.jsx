@@ -11,12 +11,12 @@ function Navbar() {
 
   return (
     <>
-      <div className="flex justify-between items-center mx-4 lg:mx-16 fixed right-0 left-0 top-6 border-2 border-[#2EB2D3] rounded-full py-2 px-6 lg:px-16 bg-[#2EB2D3] bg-opacity-20 backdrop-blur-md z-50">
-        <div className="text-3xl font-bold">AMIN</div>
+      <div className="flex justify-between items-center mx-4 lg:mx-16 fixed right-0 left-0 top-6 shadow-[0_0_15px_rgba(0,0,0,0.15)] rounded-2xl py-4 px-6 lg:px-16 bg-white z-50">
+        <div className="text-3xl font-bold text-primary">AMIN</div>
         <div
           className={`${
             open ? "flex" : "hidden"
-          } lg:flex justify-start gap-6 lg:gap-16 text-white max-lg:absolute max-lg:flex-col max-lg:top-[-26px] max-lg:right-[-17px] max-lg:left-36 max-lg:border-[#2EB2D3] max-lg:border-2 max-lg:h-screen max-lg:bg-[#10131A] max-lg:pt-8`}
+          } lg:flex justify-start gap-6 lg:gap-16 text-primary max-lg:absolute max-lg:flex-col max-lg:top-[-26px] max-lg:right-[-17px] max-lg:left-36 max-lg:h-screen max-lg:bg-white max-lg:pt-8 max-lg:shadow-lg`}
         >
           <IoIosClose
             className="text-3xl absolute top-3 left-3 lg:hidden"
@@ -25,11 +25,11 @@ function Navbar() {
             }}
           />
           <Link to={"/"}>
-            <div className="text-3xl font-bold lg:hidden flex items-center justify-center">
+            <div className="text-3xl font-bold lg:hidden flex items-center justify-center text-primary">
               <h1>AMIN</h1>
             </div>
           </Link>
-          <ul className="flex flex-col lg:flex-row lg:gap-16 items-end text-end">
+          <ul className="flex flex-col lg:flex-row lg:gap-16 items-end text-end max-lg:my-10">
             {[
               { to: "/", label: "Home" },
               { to: "/services", label: "Services" },
@@ -39,10 +39,10 @@ function Navbar() {
               <Link
                 key={link.to}
                 to={link.to}
-                className={`text-white ${
+                className={`text-xl ${
                   isActive(link.to)
-                    ? "text-opacity-100 max-lg:border-[#2EB2D3] max-lg:border-t-2 max-lg:border-b-2 max-lg:py-4 max-lg:px-10 max-lg:bg-[#2EB2D3] max-lg:bg-opacity-20 max-lg:w-full duration-200"
-                    : "text-opacity-50 duration-200 max-lg:py-4 max-lg:px-6 w-full max-lg:border-[#10131A]"
+                    ? "text-primary font-medium max-lg:border-primary max-lg:border-t-2 max-lg:border-b-2 max-lg:py-4 max-lg:px-10 max-lg:bg-primary max-lg:bg-opacity-20 max-lg:w-full duration-200"
+                    : "text-black duration-200 max-lg:py-4 max-lg:px-6 w-full max-lg:border-[#10131A]"
                 } hover:text-opacity-100`}
               >
                 <li>{link.label}</li>

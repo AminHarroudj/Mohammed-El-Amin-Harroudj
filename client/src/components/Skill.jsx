@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 function Skill({ children, title, percentage }) {
   return (
     <>
@@ -7,11 +8,11 @@ function Skill({ children, title, percentage }) {
             <h1>{title}</h1>
             <div className="w-[30px]">{children}</div>
           </div>
-          <div className="text-white text-opacity-50">{percentage}%</div>
+          <div className="">{percentage}%</div>
         </div>
-        <div className="h-2 bg-[#2EB2D3] bg-opacity-20">
+        <div className="h-2 bg-primary bg-opacity-20">
           <div
-            className={"h-2 bg-[#2EB2D3]"}
+            className={"h-2 bg-primary"}
             style={{ width: `${percentage}%` }}
           ></div>
         </div>

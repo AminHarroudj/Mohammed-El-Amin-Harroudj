@@ -60,10 +60,10 @@ function ContactForm() {
   };
   return (
     <>
-      <div className="bg-[#2EB2D3] bg-opacity-20 border-2 border-[#2EB2D3] rounded-xl p-6 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20">
+      <div className="bg-white shadow-[0_0_15px_rgba(0,0,0,0.15)] rounded-2xl p-6 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-20">
         <div className="flex flex-col gap-4">
-          <h1 className="text-4xl font-medium text-[#2EB2D3]">Get In Touch</h1>
-          <p className="text-white text-opacity-50 text-base">
+          <h1 className="text-4xl font-medium text-primary">Get In Touch</h1>
+          <p className="text-black text-opacity-50 text-base">
             Feel free to reach out to me here
           </p>
           <div>
@@ -73,12 +73,12 @@ function ContactForm() {
             >
               <div className="flex flex-col gap-2 w-full font-medium">
                 <label htmlFor="">
-                  Your <span className="text-[#2EB2D3]">Full Name</span>
+                  Your <span className="text-primary">Full Name</span>
                 </label>
                 <input
                   type="text"
                   placeholder="Enter Your Full Name"
-                  className="py-3 px-6 rounded-xl text-black outline-none w-full"
+                  className="py-3 px-6 rounded-xl text-black outline-none w-full bg-black bg-opacity-5"
                   required
                   name="name"
                   value={formData.name}
@@ -87,12 +87,12 @@ function ContactForm() {
               </div>
               <div className="flex flex-col gap-2 w-full font-medium">
                 <label htmlFor="">
-                  Your <span className="text-[#2EB2D3]">Email</span>
+                  Your <span className="text-primary">Email</span>
                 </label>
                 <input
                   type="email"
                   placeholder="Enter Your Full Name"
-                  className="py-3 px-6 rounded-xl text-black outline-none w-full"
+                  className="py-3 px-6 rounded-xl text-black outline-none w-full bg-black bg-opacity-5"
                   required
                   name="email"
                   value={formData.email}
@@ -101,12 +101,12 @@ function ContactForm() {
               </div>
               <div className="flex flex-col gap-2 w-full font-medium">
                 <label htmlFor="">
-                  Your <span className="text-[#2EB2D3]">Phone Number</span>
+                  Your <span className="text-primary">Phone Number</span>
                 </label>
                 <input
                   type="number"
                   placeholder="Enter Your Full Name"
-                  className="py-3 px-6 rounded-xl text-black outline-none w-full"
+                  className="py-3 px-6 rounded-xl text-black outline-none w-full bg-black bg-opacity-5"
                   required
                   name="phone"
                   value={formData.phone}
@@ -115,10 +115,10 @@ function ContactForm() {
               </div>
               <div className="flex flex-col gap-2 w-full font-medium">
                 <label htmlFor="">
-                  Your <span className="text-[#2EB2D3]">Message</span>
+                  Your <span className="text-primary">Message</span>
                 </label>
                 <textarea
-                  className="py-3 px-6 rounded-xl text-black outline-none h-[100px] w-full"
+                  className="py-3 px-6 rounded-xl text-black outline-none h-[100px] w-full bg-black bg-opacity-5"
                   placeholder="Enter Your Message"
                   required
                   name="message"
@@ -128,7 +128,7 @@ function ContactForm() {
               </div>
               <button
                 type="submit"
-                className="bg-[#2EB2D3] py-3 px-10 rounded-full hover:text-[#2EB2D3] hover:bg-transparent border-2 border-[#2EB2D3] hover:border-2 hover:border-[#2EB2D3] hover:scale-105 duration-200"
+                className="bg-primary py-3 px-10 rounded-full hover:text-primary hover:bg-transparent border-2 border-primary hover:border-2 hover:border-primary text-white hover:scale-105 duration-200"
               >
                 Send Message
               </button>
@@ -141,20 +141,20 @@ function ContactForm() {
           </div>
           <div className="flex flex-col gap-4">
             <div className="flex gap-4">
-              <FaLocationDot className="text-2xl text-[#2EB2D3]" />
-              <p className="text-white text-opacity-50">
+              <FaLocationDot className="text-2xl text-primary" />
+              <p className="text-black">
                 Constantine , Algeria
               </p>
             </div>
             <div className="flex gap-4">
-              <IoMdMail className="text-2xl text-[#2EB2D3]" />
-              <p className="text-white text-opacity-50">
+              <IoMdMail className="text-2xl text-primary" />
+              <p className="text-black">
                 amin.harroudj.2002@gmail.com
               </p>
             </div>
             <div className="flex gap-4">
-              <FaPhoneAlt className="text-2xl text-[#2EB2D3]" />
-              <p className="text-white text-opacity-50">0556648005</p>
+              <FaPhoneAlt className="text-2xl text-primary" />
+              <p className="text-black">0556648005</p>
             </div>
           </div>
           <div className="flex items-center gap-6">
@@ -164,10 +164,10 @@ function ContactForm() {
               }
               target="_blank"
             >
-              <FaLinkedin className="text-4xl hover:text-[#2EB2D3] hover:scale-125 duration-200" />
+              <FaLinkedin className="text-4xl text-primary hover:scale-125 duration-200" />
             </Link>
             <Link to={"https://github.com/AminHarroudj"} target="_blank">
-              <FaGithub className="text-4xl hover:text-[#2EB2D3] hover:scale-125 duration-200" />
+              <FaGithub className="text-4xl text-primary hover:scale-125 duration-200" />
             </Link>
           </div>
         </div>

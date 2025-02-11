@@ -1,26 +1,13 @@
 import ProjectCard from "./ProjectCard";
-import adwaveMockup from "../assets/adwaveMockup.png";
-import portfolioMockup from "../assets/portfolioMockup.png";
+import adwaveMockup from "../assets/adwave.png";
+import portfolioMockup from "../assets/sms.png";
 import goatstoreImg from "../assets/goatstore.png";
-import { motion } from "motion/react";
+import bahaImg from "../assets/baha.png";
 
 function AllProjects() {
   return (
     <>
-      <motion.div
-        className="grid grid-cols-1 lg:grid-cols-4 gap-6"
-        initial={{
-          y: +50,
-          opacity: 0,
-        }}
-        whileInView={{
-          y: 0,
-          opacity: 1,
-        }}
-        transition={{
-          duration: 1,
-        }}
-      >
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         <div>
           <ProjectCard
             imgSource={adwaveMockup}
@@ -34,11 +21,11 @@ function AllProjects() {
         <div className="lg:pt-10">
           <ProjectCard
             imgSource={portfolioMockup}
-            title={"My Portfolio"}
+            title={"SMS ALGERIE SARL"}
             description={
-              "Frontend project for an algerian entreprise of digital marketing"
+              "Full Stack project for an algerian entreprise of car location"
             }
-            livepreview={"https://mohammed-el-amin-harroudj.vercel.app/"}
+            livepreview={"https://sms-algerie.net/"}
           />
         </div>
         <div>
@@ -48,10 +35,20 @@ function AllProjects() {
             description={
               "E-commerce website for an algerian entreprise of sport clouths"
             }
-            livepreview={"https://adwave.agency/"}
+            livepreview={"https://goat-store-dz.com/"}
           />
         </div>
-      </motion.div>
+        <div className="lg:pt-10">
+          <ProjectCard
+            imgSource={bahaImg}
+            title={"Designer Portfolio"}
+            description={
+              "Portfolio for a Graphic Designer and Specialiste Presentation"
+            }
+            livepreview={"https://baha-eddine-portfolio.vercel.app/"}
+          />
+        </div>
+      </div>
     </>
   );
 }

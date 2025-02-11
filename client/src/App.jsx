@@ -6,12 +6,11 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
-import { getDocs } from "./firebase";
 
 function App() {
   return (
     <>
-      <div className="bg-[#10131A] text-white text-lg">
+      <div className="text-lg">
         <BrowserRouter>
           <Navbar />
           <ScrollToTop />

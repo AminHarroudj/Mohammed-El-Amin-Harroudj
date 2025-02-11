@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Button from "./Button";
 
 function ArticleCard({ imgSource, title, description }) {

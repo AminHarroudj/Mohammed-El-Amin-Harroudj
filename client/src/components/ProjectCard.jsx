@@ -5,13 +5,13 @@ import shareIcon from "../assets/share-svgrepo-com.svg";
 function ProjectCard({ imgSource, title, description, livepreview }) {
   return (
     <>
-      <div className="flex flex-col gap-6 bg-[#2EB2D3] bg-opacity-20 border-2 border-[#2EB2D3] rounded-lg p-4 hover:bg-opacity-40 duration-200">
-        <img src={imgSource} alt="" className="rounded-lg h-[150px]" />
-        <h1 className="text-2xl font-medium">{title}</h1>
-        <p className="text-white text-opacity-50 text-base">{description}</p>
+      <div className="flex flex-col gap-4 bg-primary shadow-[0_0_15px_rgba(0,0,0,0.15)] rounded-2xl p-4 bg-opacity-10 hover:bg-opacity-20 duration-200">
+        <img src={imgSource} alt="" className="rounded-lg h-[150px] bg-white" />
+        <h1 className="text-2xl font-medium text-secondary">{title}</h1>
+        <p className="text-black text-opacity-50 text-base">{description}</p>
         <div className="flex justify-end gap-2 items-center text-base mb-2">
           <Link to={livepreview} target="_blank">
-            <button className="flex items-center gap-2 py-2 px-4 rounded-full border-2 border-[#2EB2D3] hover:bg-[#2EB2D3] hover:scale-105 duration-200">
+            <button className="flex items-center gap-2 py-2 px-4 rounded-full border-2 bg-primary border-primary hover:bg-primary hover:scale-105 duration-200 text-white">
               <img src={shareIcon} alt="" className="w-[25px]" />
               Live
             </button>

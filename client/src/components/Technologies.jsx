@@ -12,7 +12,7 @@ function Technologies() {
   return (
     <>
       <div className="flex flex-col gap-6 lg:gap-10">
-        <h1 className="text-3xl lg:text-4xl font-medium">
+        <h1 className="text-3xl lg:text-4xl font-medium text-secondary">
           Additional Technologies
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
