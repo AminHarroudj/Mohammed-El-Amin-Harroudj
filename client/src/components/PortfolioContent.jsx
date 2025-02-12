@@ -9,7 +9,7 @@ function PortfolioContent() {
           <h1 className="text-4xl lg:text-5xl font-medium text-secondary">
             All My <span className="text-primary">Projects</span>
           </h1>
-          <p className="text-white text-opacity-50">
+          <p className="text-black text-opacity-50">
             Greeting, fellow digital explorers! I am Mohammed , a passionate
             developer
           </p>
