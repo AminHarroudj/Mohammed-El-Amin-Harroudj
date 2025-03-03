@@ -19,7 +19,7 @@ function MoreAboutMe() {
           <div>
             <MySkills />
           </div>
-          <div className="grid grid-cols-1 max-lg:gap-10">
+          <div className="grid grid-cols-1 gap-10">
             <Technologies />
             <SkillsInProgress />
           </div>

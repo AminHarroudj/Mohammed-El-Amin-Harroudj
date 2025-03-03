@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import adwaveMockup from "../assets/adwave.png";
 import bahaImg from "../assets/baha.png";
+import plastoysImg from "../assets/plastoys.png";
 
 function FrontendProjects() {
   return (
@@ -18,6 +19,16 @@ function FrontendProjects() {
             />
           </div>
           <div className="lg:pt-10">
+            <ProjectCard
+              imgSource={plastoysImg}
+              title={"Plastoys"}
+              description={
+                "Algerian Company for selling & product toys for children"
+              }
+              livepreview={"https://plastoys.vercel.app/"}
+            />
+          </div>
+          <div>
             <ProjectCard
               imgSource={bahaImg}
               title={"Designer Portfolio"}

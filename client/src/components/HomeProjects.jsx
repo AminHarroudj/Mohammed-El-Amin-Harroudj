@@ -1,11 +1,10 @@
 import ProjectCard from "./ProjectCard";
 import adwaveMockup from "../assets/adwave.png";
 import smsImg from "../assets/sms.png";
-import bahaImg from "../assets/baha.png";
 import plastoysImg from "../assets/plastoys.png";
 import afrahoukom from "../assets/afrahoukom.png";
 
-function AllProjects() {
+function HomeProjects() {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -34,7 +33,7 @@ function AllProjects() {
             imgSource={afrahoukom}
             title={"Afrahoukom"}
             description={
-              "An Algerian company for serve wedding services online"
+              "E-commerce website for an algerian entreprise of sport clouths"
             }
             livepreview={"https://afrahoukom.com/"}
           />
@@ -44,19 +43,9 @@ function AllProjects() {
             imgSource={plastoysImg}
             title={"Plastoys"}
             description={
-              "Algerian Company for selling & product toys for children"
-            }
-            livepreview={"https://plastoys.vercel.app/"}
-          />
-        </div>
-        <div>
-          <ProjectCard
-            imgSource={bahaImg}
-            title={"Designer Portfolio"}
-            description={
               "Portfolio for a Graphic Designer and Specialiste Presentation"
             }
-            livepreview={"https://baha-eddine-portfolio.vercel.app/"}
+            livepreview={"https://plastoys.vercel.app/"}
           />
         </div>
       </div>
@@ -64,4 +53,4 @@ function AllProjects() {
   );
 }
 
-export default AllProjects;
+export default HomeProjects;

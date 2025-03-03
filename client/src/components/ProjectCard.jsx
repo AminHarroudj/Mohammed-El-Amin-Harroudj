@@ -5,7 +5,7 @@ import shareIcon from "../assets/share-svgrepo-com.svg";
 function ProjectCard({ imgSource, title, description, livepreview }) {
   return (
     <>
-      <div className="flex flex-col gap-4 bg-primary shadow-[0_0_15px_rgba(0,0,0,0.15)] rounded-2xl p-4 bg-opacity-10 hover:bg-opacity-20 duration-200">
+      <div className="flex flex-col gap-4 cursor-pointer bg-primary shadow-[0_0_15px_rgba(0,0,0,0.15)] rounded-2xl p-4 bg-opacity-20 hover:bg-opacity-30 duration-200">
         <img src={imgSource} alt="" className="rounded-lg h-[150px] bg-white" />
         <h1 className="text-2xl font-medium text-secondary">{title}</h1>
         <p className="text-black text-opacity-50 text-base">{description}</p>

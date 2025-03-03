@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import goatstoreImg from "../assets/goatstore.png";
+import afrahoukom from "../assets/afrahoukom.png";
 import portfolioMockup from "../assets/sms.png";
 
 function BackendProjects() {
@@ -19,12 +19,12 @@ function BackendProjects() {
           </div>
           <div className="lg:pt-10">
             <ProjectCard
-              imgSource={goatstoreImg}
-              title={"E-commerce Website"}
+              imgSource={afrahoukom}
+              title={"Afrahoukom"}
               description={
-                "E-commerce website for an algerian entreprise of sport clouths"
+                "An Algerian company for serve wedding services online"
               }
-              livepreview={"https://goat-store-brown.vercel.app/"}
+              livepreview={"https://afrahoukom.com/"}
             />
           </div>
           <div className="lg:pt-10"></div>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import contactIcon from "../assets/contact-svgrepo-com.svg";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaInstagram, FaLocationDot } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -142,15 +142,11 @@ function ContactForm() {
           <div className="flex flex-col gap-4">
             <div className="flex gap-4">
               <FaLocationDot className="text-2xl text-primary" />
-              <p className="text-black">
-                Constantine , Algeria
-              </p>
+              <p className="text-black">Constantine , Algeria</p>
             </div>
             <div className="flex gap-4">
               <IoMdMail className="text-2xl text-primary" />
-              <p className="text-black">
-                amin.harroudj.2002@gmail.com
-              </p>
+              <p className="text-black">amin.harroudj.2002@outlook.com</p>
             </div>
             <div className="flex gap-4">
               <FaPhoneAlt className="text-2xl text-primary" />
@@ -168,6 +164,12 @@ function ContactForm() {
             </Link>
             <Link to={"https://github.com/AminHarroudj"} target="_blank">
               <FaGithub className="text-4xl text-primary hover:scale-125 duration-200" />
+            </Link>
+            <Link
+              to={"https://www.instagram.com/mohammed.amin_harroudj"}
+              target="_blank"
+            >
+              <FaInstagram className="text-4xl text-primary hover:scale-125 duration-200" />
             </Link>
           </div>
         </div>

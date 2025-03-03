@@ -1,9 +1,9 @@
 import { useState } from "react";
-import AllProjects from "./AllProjects";
 import FrontendProjects from "./FrontendProjects";
 import BackendProjects from "./BackendProjects";
 import Button from "./Button";
 import { Link } from "react-router-dom";
+import HomeProjects from "./HomeProjects";
 
 function MyLatestProject() {
   const [visibleDiv, setVisibleDiv] = useState(1);
@@ -60,7 +60,7 @@ function MyLatestProject() {
         <div>
           {visibleDiv === 1 && (
             <div>
-              <AllProjects />
+              <HomeProjects />
               <div className="flex items-center justify-center mt-10">
                 <Link to={"/portfolio"}>
                   <Button title={"See More Projects"} />
