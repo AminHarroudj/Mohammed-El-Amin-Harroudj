@@ -46,7 +46,7 @@ function AllProjects() {
             description={
               "Algerian Company for selling & product toys for children"
             }
-            livepreview={"https://plastoys.vercel.app/"}
+            livepreview={"https://plastoys.dz/"}
           />
         </div>
         <div>

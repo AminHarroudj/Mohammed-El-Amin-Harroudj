@@ -33,7 +33,7 @@ function HomeProjects() {
             imgSource={afrahoukom}
             title={"Afrahoukom"}
             description={
-              "E-commerce website for an algerian entreprise of sport clouths"
+              "An Algerian company for serve wedding services online"
             }
             livepreview={"https://afrahoukom.com/"}
           />
@@ -43,9 +43,9 @@ function HomeProjects() {
             imgSource={plastoysImg}
             title={"Plastoys"}
             description={
-              "Portfolio for a Graphic Designer and Specialiste Presentation"
+              "Algerian Company for selling & product toys for children"
             }
-            livepreview={"https://plastoys.vercel.app/"}
+            livepreview={"https://plastoys.dz/"}
           />
         </div>
       </div>
