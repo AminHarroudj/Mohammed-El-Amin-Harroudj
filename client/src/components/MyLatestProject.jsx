@@ -54,7 +54,7 @@ function MyLatestProject() {
               handleButtonClick(3);
             }}
           >
-            Backend
+            Full Stack
           </button>
         </div>
         <div>

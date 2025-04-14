@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import afrahoukom from "../assets/afrahoukom.png";
 import portfolioMockup from "../assets/sms.png";
+import medexpertImg from "../assets/medexpert.png";
 
 function BackendProjects() {
   return (
@@ -27,7 +28,16 @@ function BackendProjects() {
               livepreview={"https://afrahoukom.com/"}
             />
           </div>
-          <div className="lg:pt-10"></div>
+          <div className="">
+            <ProjectCard
+              imgSource={medexpertImg}
+              title={"Med Expert"}
+              description={
+                "Web Application for medical student for selling packs of QCM's and courses for studying"
+              }
+              livepreview={"https://medexpertdz.com/"}
+            />
+          </div>
         </div>
       </div>
     </>

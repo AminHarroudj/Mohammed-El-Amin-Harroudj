@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import adwaveMockup from "../assets/adwave.png";
 import smsImg from "../assets/sms.png";
-import plastoysImg from "../assets/plastoys.png";
+import cityoneImg from "../assets/cityone.png";
 import afrahoukom from "../assets/afrahoukom.png";
 
 function HomeProjects() {
@@ -40,12 +40,12 @@ function HomeProjects() {
         </div>
         <div className="lg:pt-10">
           <ProjectCard
-            imgSource={plastoysImg}
-            title={"Plastoys"}
+            imgSource={cityoneImg}
+            title={"City One Algeria"}
             description={
-              "Algerian Company for selling & product toys for children"
+              "Algerian Company for selling & product Coffee and Cappuchino"
             }
-            livepreview={"https://plastoys.dz/"}
+            livepreview={"https://cityone-algeria.com/"}
           />
         </div>
       </div>

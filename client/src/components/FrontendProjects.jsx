@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import adwaveMockup from "../assets/adwave.png";
 import bahaImg from "../assets/baha.png";
 import plastoysImg from "../assets/plastoys.png";
+import cityoneImg from "../assets/cityone.png";
 
 function FrontendProjects() {
   return (
@@ -36,6 +37,16 @@ function FrontendProjects() {
                 "Portfolio for a Graphic Designer and Specialiste Presentation"
               }
               livepreview={"https://baha-eddine-portfolio.vercel.app/"}
+            />
+          </div>
+          <div className="lg:pt-10">
+            <ProjectCard
+              imgSource={cityoneImg}
+              title={"City One Algeria"}
+              description={
+                "Algerian Company for selling & product Coffee and Cappuchino"
+              }
+              livepreview={"https://cityone-algeria.com/"}
             />
           </div>
         </div>

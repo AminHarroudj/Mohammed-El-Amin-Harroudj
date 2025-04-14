@@ -4,6 +4,8 @@ import smsImg from "../assets/sms.png";
 import bahaImg from "../assets/baha.png";
 import plastoysImg from "../assets/plastoys.png";
 import afrahoukom from "../assets/afrahoukom.png";
+import cityoneImg from "../assets/cityone.png";
+import medexpertImg from "../assets/medexpert.png";
 
 function AllProjects() {
   return (
@@ -51,12 +53,32 @@ function AllProjects() {
         </div>
         <div>
           <ProjectCard
+            imgSource={cityoneImg}
+            title={"City One Algeria"}
+            description={
+              "Algerian Company for selling & product Coffee and Cappuchino"
+            }
+            livepreview={"https://cityone-algeria.com/"}
+          />
+        </div>
+        <div className="lg:pt-10">
+          <ProjectCard
             imgSource={bahaImg}
             title={"Designer Portfolio"}
             description={
               "Portfolio for a Graphic Designer and Specialiste Presentation"
             }
             livepreview={"https://baha-eddine-portfolio.vercel.app/"}
+          />
+        </div>
+        <div className="">
+          <ProjectCard
+            imgSource={medexpertImg}
+            title={"Med Expert"}
+            description={
+              "Web Application for medical student for selling packs of QCM's and courses for studying"
+            }
+            livepreview={"https://medexpertdz.com/"}
           />
         </div>
       </div>
