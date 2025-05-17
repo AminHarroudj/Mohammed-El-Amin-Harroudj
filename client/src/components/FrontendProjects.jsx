@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import adwaveMockup from "../assets/adwave.png";
-import bahaImg from "../assets/baha.png";
+import vamImg from "../assets/vam.png";
 import plastoysImg from "../assets/plastoys.png";
 import cityoneImg from "../assets/cityone.png";
 
@@ -31,12 +31,12 @@ function FrontendProjects() {
           </div>
           <div>
             <ProjectCard
-              imgSource={bahaImg}
-              title={"Designer Portfolio"}
+              imgSource={vamImg}
+              title={"VAM Electric"}
               description={
-                "Portfolio for a Graphic Designer and Specialiste Presentation"
+                "Website for Algerian Company for show theire products"
               }
-              livepreview={"https://baha-eddine-portfolio.vercel.app/"}
+              livepreview={"https://vam-electric.com/"}
             />
           </div>
           <div className="lg:pt-10">

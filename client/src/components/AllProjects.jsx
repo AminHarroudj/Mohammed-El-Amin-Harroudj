@@ -6,6 +6,7 @@ import plastoysImg from "../assets/plastoys.png";
 import afrahoukom from "../assets/afrahoukom.png";
 import cityoneImg from "../assets/cityone.png";
 import medexpertImg from "../assets/medexpert.png";
+import vamImg from "../assets/vam.png";
 
 function AllProjects() {
   return (
@@ -79,6 +80,16 @@ function AllProjects() {
               "Web Application for medical student for selling packs of QCM's and courses for studying"
             }
             livepreview={"https://medexpertdz.com/"}
+          />
+        </div>
+        <div className="lg:pt-10">
+          <ProjectCard
+            imgSource={vamImg}
+            title={"VAM Electric"}
+            description={
+              "Website for Algerian Company for show theire products"
+            }
+            livepreview={"https://vam-electric.com/"}
           />
         </div>
       </div>
