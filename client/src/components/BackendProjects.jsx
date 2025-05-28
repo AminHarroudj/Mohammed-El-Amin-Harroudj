@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import afrahoukom from "../assets/afrahoukom.png";
 import portfolioMockup from "../assets/sms.png";
 import medexpertImg from "../assets/medexpert.png";
+import goatImg from "../assets/goatstore.png";
 
 function BackendProjects() {
   return (
@@ -13,7 +14,7 @@ function BackendProjects() {
               imgSource={portfolioMockup}
               title={"SMS ALGERIE SARL"}
               description={
-                "Full Stack project for an algerian entreprise of car location"
+                "Full-stack web application for an Algerian car rental company, featuring seamless booking and management functionalities"
               }
               livepreview={"https://sms-algerie.net/"}
             />
@@ -23,7 +24,7 @@ function BackendProjects() {
               imgSource={afrahoukom}
               title={"Afrahoukom"}
               description={
-                "An Algerian company for serve wedding services online"
+                "Online platform for an Algerian wedding services company, offering convenient access to a variety of wedding-related services"
               }
               livepreview={"https://afrahoukom.com/"}
             />
@@ -33,9 +34,19 @@ function BackendProjects() {
               imgSource={medexpertImg}
               title={"Med Expert"}
               description={
-                "Web Application for medical student for selling packs of QCM's and courses for studying"
+                "Web application designed for medical students in Algeria to purchase study packs of QCMs and courses for exam preparation"
               }
               livepreview={"https://medexpertdz.com/"}
+            />
+          </div>
+          <div className="lg:pt-10">
+            <ProjectCard
+              imgSource={goatImg}
+              title={"GOAT STORE"}
+              description={
+                "Algerian e-commerce platform specializing in sports apparel, shoes, and balls, offering a wide range of quality products for athletes and sports enthusiasts"
+              }
+              livepreview={"https://goat-store-dz.com/"}
             />
           </div>
         </div>

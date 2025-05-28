@@ -1,8 +1,8 @@
 import ProjectCard from "./ProjectCard";
-import adwaveMockup from "../assets/adwave.png";
 import smsImg from "../assets/sms.png";
 import cityoneImg from "../assets/cityone.png";
 import afrahoukom from "../assets/afrahoukom.png";
+import goatImg from "../assets/goatstore.png";
 
 function HomeProjects() {
   return (
@@ -10,12 +10,12 @@ function HomeProjects() {
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         <div>
           <ProjectCard
-            imgSource={adwaveMockup}
-            title={"Adwave Website"}
+            imgSource={goatImg}
+            title={"GOAT STORE"}
             description={
-              "Frontend project for an algerian entreprise of digital marketing"
+              "Algerian e-commerce platform specializing in sports apparel, shoes, and balls, offering a wide range of quality products for athletes and sports enthusiasts"
             }
-            livepreview={"https://adwave.agency/"}
+            livepreview={"https://goat-store-dz.com/"}
           />
         </div>
         <div className="lg:pt-10">
@@ -23,7 +23,7 @@ function HomeProjects() {
             imgSource={smsImg}
             title={"SMS ALGERIE SARL"}
             description={
-              "Full Stack project for an algerian entreprise of car location"
+              "Full-stack web application for an Algerian car rental company, featuring seamless booking and management functionalities"
             }
             livepreview={"https://sms-algerie.net/"}
           />
@@ -33,7 +33,7 @@ function HomeProjects() {
             imgSource={afrahoukom}
             title={"Afrahoukom"}
             description={
-              "An Algerian company for serve wedding services online"
+              "Online platform for an Algerian wedding services company, offering convenient access to a variety of wedding-related services"
             }
             livepreview={"https://afrahoukom.com/"}
           />
@@ -43,7 +43,7 @@ function HomeProjects() {
             imgSource={cityoneImg}
             title={"City One Algeria"}
             description={
-              "Algerian Company for selling & product Coffee and Cappuchino"
+              "Website for an Algerian coffee and cappuccino company, showcasing their product range and brand story"
             }
             livepreview={"https://cityone-algeria.com/"}
           />

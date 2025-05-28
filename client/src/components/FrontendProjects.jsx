@@ -14,7 +14,7 @@ function FrontendProjects() {
               imgSource={adwaveMockup}
               title={"Adwave Website"}
               description={
-                "Frontend project for an algerian entreprise of digital marketing"
+                "Frontend project developed for an Algerian digital marketing company, focusing on modern design and responsive user experience"
               }
               livepreview={"https://adwave.agency/"}
             />
@@ -24,7 +24,7 @@ function FrontendProjects() {
               imgSource={plastoysImg}
               title={"Plastoys"}
               description={
-                "Algerian Company for selling & product toys for children"
+                "E-commerce website for an Algerian company specializing in selling high-quality toys for children"
               }
               livepreview={"https://plastoys.vercel.app/"}
             />
@@ -34,7 +34,7 @@ function FrontendProjects() {
               imgSource={vamImg}
               title={"VAM Electric"}
               description={
-                "Website for Algerian Company for show theire products"
+                "Corporate website for an Algerian electrical company, presenting their product catalog and company information"
               }
               livepreview={"https://vam-electric.com/"}
             />
@@ -44,7 +44,7 @@ function FrontendProjects() {
               imgSource={cityoneImg}
               title={"City One Algeria"}
               description={
-                "Algerian Company for selling & product Coffee and Cappuchino"
+                "Website for an Algerian coffee and cappuccino company, showcasing their product range and brand story"
               }
               livepreview={"https://cityone-algeria.com/"}
             />

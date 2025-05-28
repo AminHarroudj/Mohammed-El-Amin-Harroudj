@@ -7,6 +7,7 @@ import afrahoukom from "../assets/afrahoukom.png";
 import cityoneImg from "../assets/cityone.png";
 import medexpertImg from "../assets/medexpert.png";
 import vamImg from "../assets/vam.png";
+import goatImg from "../assets/goatstore.png";
 
 function AllProjects() {
   return (
@@ -14,12 +15,12 @@ function AllProjects() {
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         <div>
           <ProjectCard
-            imgSource={adwaveMockup}
-            title={"Adwave Website"}
+            imgSource={goatImg}
+            title={"GOAT STORE"}
             description={
-              "Frontend project for an algerian entreprise of digital marketing"
+              "Algerian e-commerce platform specializing in sports apparel, shoes, and balls, offering a wide range of quality products for athletes and sports enthusiasts"
             }
-            livepreview={"https://adwave.agency/"}
+            livepreview={"https://goat-store-dz.com/"}
           />
         </div>
         <div className="lg:pt-10">
@@ -27,7 +28,7 @@ function AllProjects() {
             imgSource={smsImg}
             title={"SMS ALGERIE SARL"}
             description={
-              "Full Stack project for an algerian entreprise of car location"
+              "Full-stack web application for an Algerian car rental company, featuring seamless booking and management functionalities"
             }
             livepreview={"https://sms-algerie.net/"}
           />
@@ -37,7 +38,7 @@ function AllProjects() {
             imgSource={afrahoukom}
             title={"Afrahoukom"}
             description={
-              "An Algerian company for serve wedding services online"
+              "Online platform for an Algerian wedding services company, offering convenient access to a variety of wedding-related services"
             }
             livepreview={"https://afrahoukom.com/"}
           />
@@ -47,7 +48,7 @@ function AllProjects() {
             imgSource={plastoysImg}
             title={"Plastoys"}
             description={
-              "Algerian Company for selling & product toys for children"
+              "E-commerce website for an Algerian company specializing in selling high-quality toys for children"
             }
             livepreview={"https://plastoys.dz/"}
           />
@@ -57,7 +58,7 @@ function AllProjects() {
             imgSource={cityoneImg}
             title={"City One Algeria"}
             description={
-              "Algerian Company for selling & product Coffee and Cappuchino"
+              "Website for an Algerian coffee and cappuccino company, showcasing their product range and brand story"
             }
             livepreview={"https://cityone-algeria.com/"}
           />
@@ -67,7 +68,7 @@ function AllProjects() {
             imgSource={bahaImg}
             title={"Designer Portfolio"}
             description={
-              "Portfolio for a Graphic Designer and Specialiste Presentation"
+              "Personal portfolio site for a graphic designer and presentation specialist, highlighting creative projects and expertise"
             }
             livepreview={"https://baha-eddine-portfolio.vercel.app/"}
           />
@@ -77,7 +78,7 @@ function AllProjects() {
             imgSource={medexpertImg}
             title={"Med Expert"}
             description={
-              "Web Application for medical student for selling packs of QCM's and courses for studying"
+              "Web application designed for medical students in Algeria to purchase study packs of QCMs and courses for exam preparation"
             }
             livepreview={"https://medexpertdz.com/"}
           />
@@ -87,9 +88,19 @@ function AllProjects() {
             imgSource={vamImg}
             title={"VAM Electric"}
             description={
-              "Website for Algerian Company for show theire products"
+              "Corporate website for an Algerian electrical company, presenting their product catalog and company information"
             }
             livepreview={"https://vam-electric.com/"}
+          />
+        </div>
+        <div>
+          <ProjectCard
+            imgSource={adwaveMockup}
+            title={"Adwave Website"}
+            description={
+              "Frontend project developed for an Algerian digital marketing company, focusing on modern design and responsive user experience"
+            }
+            livepreview={"https://adwave.agency/"}
           />
         </div>
       </div>
