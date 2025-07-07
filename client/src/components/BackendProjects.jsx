@@ -1,8 +1,8 @@
 import ProjectCard from "./ProjectCard";
 import afrahoukom from "../assets/afrahoukom.png";
 import portfolioMockup from "../assets/sms.png";
-import medexpertImg from "../assets/medexpert.png";
 import goatImg from "../assets/goatstore.png";
+import aplImg from "../assets/apl.png";
 
 function BackendProjects() {
   return (
@@ -11,12 +11,12 @@ function BackendProjects() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           <div>
             <ProjectCard
-              imgSource={portfolioMockup}
-              title={"SMS ALGERIE SARL"}
+              imgSource={aplImg}
+              title={"APL TECH"}
               description={
-                "Full-stack web application for an Algerian car rental company, featuring seamless booking and management functionalities"
+                "APL Tech is your #1 destination for PC components, gaming PCs, and custom PC builds in Setif, Algeria. Find the best prices on GPUs, CPUs, motherboards, and more."
               }
-              livepreview={"https://sms-algerie.net/"}
+              livepreview={"https://apltech.dz/"}
             />
           </div>
           <div className="lg:pt-10">
@@ -31,12 +31,12 @@ function BackendProjects() {
           </div>
           <div className="">
             <ProjectCard
-              imgSource={medexpertImg}
-              title={"Med Expert"}
+              imgSource={portfolioMockup}
+              title={"SMS ALGERIE SARL"}
               description={
-                "Web application designed for medical students in Algeria to purchase study packs of QCMs and courses for exam preparation"
+                "Full-stack web application for an Algerian car rental company, featuring seamless booking and management functionalities"
               }
-              livepreview={"https://medexpertdz.com/"}
+              livepreview={"https://sms-algerie.net/"}
             />
           </div>
           <div className="lg:pt-10">

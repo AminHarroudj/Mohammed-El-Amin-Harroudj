@@ -1,8 +1,8 @@
 import ProjectCard from "./ProjectCard";
 import smsImg from "../assets/sms.png";
-import cityoneImg from "../assets/cityone.png";
 import afrahoukom from "../assets/afrahoukom.png";
 import goatImg from "../assets/goatstore.png";
+import aplImg from "../assets/apl.png";
 
 function HomeProjects() {
   return (
@@ -10,12 +10,12 @@ function HomeProjects() {
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
         <div>
           <ProjectCard
-            imgSource={goatImg}
-            title={"GOAT STORE"}
+            imgSource={aplImg}
+            title={"APL TECH"}
             description={
-              "Algerian e-commerce platform specializing in sports apparel, shoes, and balls, offering a wide range of quality products for athletes and sports enthusiasts"
+              "APL Tech is your #1 destination for PC components, gaming PCs, and custom PC builds in Setif, Algeria. Find the best prices on GPUs, CPUs, motherboards, and more."
             }
-            livepreview={"https://goat-store-dz.com/"}
+            livepreview={"https://apltech.dz/"}
           />
         </div>
         <div className="lg:pt-10">
@@ -40,12 +40,12 @@ function HomeProjects() {
         </div>
         <div className="lg:pt-10">
           <ProjectCard
-            imgSource={cityoneImg}
-            title={"City One Algeria"}
+            imgSource={goatImg}
+            title={"GOAT STORE"}
             description={
-              "Website for an Algerian coffee and cappuccino company, showcasing their product range and brand story"
+              "Algerian e-commerce platform specializing in sports apparel, shoes, and balls, offering a wide range of quality products for athletes and sports enthusiasts"
             }
-            livepreview={"https://cityone-algeria.com/"}
+            livepreview={"https://goat-store-dz.com/"}
           />
         </div>
       </div>

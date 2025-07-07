@@ -8,11 +8,22 @@ import cityoneImg from "../assets/cityone.png";
 import medexpertImg from "../assets/medexpert.png";
 import vamImg from "../assets/vam.png";
 import goatImg from "../assets/goatstore.png";
+import aplImg from "../assets/apl.png";
 
 function AllProjects() {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+        <div className="lg:pt-10">
+          <ProjectCard
+            imgSource={aplImg}
+            title={"APL TECH"}
+            description={
+              "APL Tech is your #1 destination for PC components, gaming PCs, and custom PC builds in Setif, Algeria. Find the best prices on GPUs, CPUs, motherboards, and more."
+            }
+            livepreview={"https://apltech.dz/"}
+          />
+        </div>
         <div>
           <ProjectCard
             imgSource={goatImg}
