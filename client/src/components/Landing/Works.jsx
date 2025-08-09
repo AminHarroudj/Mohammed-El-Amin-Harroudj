@@ -36,7 +36,7 @@ function Works() {
         { title: "Mongo DB", icon: mongo },
       ],
       imgs: [goat1, goat2, goat3, goat4, goat5],
-      live: "https://google.com",
+      live: "https://goat-store-dz.com",
     },
     {
       id: 2,
@@ -49,7 +49,7 @@ function Works() {
         { title: "Mongo DB", icon: mongo },
       ],
       imgs: [apl1, apl2, apl3, apl4, apl5],
-      live: "https://google.com",
+      live: "https://apltech.dz",
     },
   ];
 
