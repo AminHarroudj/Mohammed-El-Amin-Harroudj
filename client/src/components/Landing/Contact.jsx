@@ -32,7 +32,7 @@ function Contact() {
       <main className="flex-grow mt-10 lg:mt-0 mb-10 sm:mb-4 lg:mb-6 z-10 flex flex-col items-center justify-center">
         <div className="flex flex-col gap-6 w-full max-w-xl bg-background1 border-1 border-primary shadow-[0_0_5px_#2962FF] rounded-2xl p-4 cursor-pointer transition-all hover:shadow-[0_0_15px_#2962FF]">
           <div className="flex items-center justify-center">
-            <img src={contact} alt="" className="w-40" />
+            <img src={contact} alt="" className="w-28" />
           </div>
           <div className="flex items-center flex-col gap-2">
             <div className="w-14 h-14 flex items-center justify-center text-3xl bg-primary rounded-full">
