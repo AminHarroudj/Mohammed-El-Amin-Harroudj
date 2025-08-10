@@ -40,9 +40,12 @@ function Contact() {
             </div>
             <div className="flex flex-col text-center">
               <p className="text-xl font-semibold">My Email Address</p>
-              <p className="text-lg text-white/50">
+              <a
+                href="mailto:amin.harroudj.2002@outlook.com"
+                className="text-lg text-white/50 transition-colors hover:text-primary"
+              >
                 amin.harroudj.2002@outlook.com
-              </p>
+              </a>
             </div>
           </div>
           <div className="flex items-center flex-col gap-2">
@@ -51,7 +54,12 @@ function Contact() {
             </div>
             <div className="flex flex-col text-center">
               <p className="text-xl font-semibold">My Phone Number</p>
-              <p className="text-lg text-white/50">0556648005</p>
+              <a
+                href="tel:+213556648005"
+                className="text-lg text-white/50 transition-colors hover:text-primary"
+              >
+                0556648005
+              </a>
             </div>
           </div>
           <div className="flex items-center justify-center gap-4">
