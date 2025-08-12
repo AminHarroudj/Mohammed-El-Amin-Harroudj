@@ -9,6 +9,7 @@ import react from "../../assets/react.svg";
 import tailwind from "../../assets/tailwind.svg";
 import nodejs from "../../assets/nodejs.svg";
 import mongo from "../../assets/mongo.svg";
+import wordpress from "../../assets/wordpress.svg";
 import { IoClose } from "react-icons/io5";
 import { RiShareBoxFill } from "react-icons/ri";
 import apl1 from "../../assets/apl1.png";
@@ -23,12 +24,19 @@ import goat3 from "../../assets/goat3.png";
 import goat4 from "../../assets/goat4.png";
 import goat5 from "../../assets/goat5.png";
 
+import wsc1 from "../../assets/wsc1.png";
+import wsc2 from "../../assets/wsc2.png";
+import wsc3 from "../../assets/wsc3.png";
+import wsc4 from "../../assets/wsc4.png";
+import wsc5 from "../../assets/wsc5.png";
+
 function Works() {
   const projects = [
     {
       id: 1,
       title: "GOAT STORE DZ",
-      details: "Project Details",
+      details:
+        "An e-commerce platform dedicated to high-quality football clothing, designed with a modern, responsive interface. Features include a visually engaging landing page for product showcases and a fully functional admin dashboard for product, order, and inventory management. Built with React and Tailwind CSS on the front end, and Node.js/Express.js with MongoDB on the back end, ensuring fast performance and scalability.",
       technologies: [
         { title: "React JS", icon: react },
         { title: "Tailwind CSS", icon: tailwind },
@@ -41,7 +49,8 @@ function Works() {
     {
       id: 2,
       title: "APL TECH DZ",
-      details: "Project Details",
+      details:
+        "A complete e-commerce solution for PC components and custom PC building. The platform combines a sleek landing page with an admin dashboard for managing products, custom builds, and orders. Developed with React and Tailwind CSS for a smooth user experience, and powered by Node.js/Express.js and MongoDB for robust backend operations.",
       technologies: [
         { title: "React JS", icon: react },
         { title: "Tailwind CSS", icon: tailwind },
@@ -50,6 +59,15 @@ function Works() {
       ],
       imgs: [apl1, apl2, apl3, apl4, apl5],
       live: "https://apltech.dz",
+    },
+    {
+      id: 3,
+      title: "WORLDSPEAK CLASS",
+      details:
+        "A professional website for an English language institute, offering online registration for students and a secure certificate verification system for graduates. Developed on WordPress to allow easy content management while maintaining a professional and responsive design, optimized for both desktop and mobile users.",
+      technologies: [{ title: "WordPress", icon: wordpress }],
+      imgs: [wsc1, wsc2, wsc3, wsc4, wsc5],
+      live: "https://worldspeakclass.com",
     },
   ];
 
