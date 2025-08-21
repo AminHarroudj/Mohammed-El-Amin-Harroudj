@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import bg from "../../assets/bg.svg";
-import profile from "../../assets/profile.jpg";
+import profile from "../../assets/img.png";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
@@ -68,7 +68,7 @@ function Home() {
             src={profile}
             alt="Profile Image"
             loading="lazy"
-            className="z-10 rounded-full w-full max-w-sm lg:max-w-md shadow-2xl"
+            className="z-10 w-full max-w-sm lg:max-w-lg"
           />
         </div>
       </main>

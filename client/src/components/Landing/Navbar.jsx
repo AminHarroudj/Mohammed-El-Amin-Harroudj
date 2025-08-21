@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import profil from "../../assets/profile.jpg";
+import profil from "../../assets/img.png";
 import { useState } from "react";
 import { IoList } from "react-icons/io5";
 import { IoIosCloseCircleOutline } from "react-icons/io";
