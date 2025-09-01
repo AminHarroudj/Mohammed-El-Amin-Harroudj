@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import profil from "../../assets/img.png";
+import profil from "../../assets/img.webp";
 import { useState } from "react";
 import { IoList } from "react-icons/io5";
 import { IoIosCloseCircleOutline } from "react-icons/io";
@@ -32,8 +32,8 @@ function Navbar() {
         <NavLink to={"/"} className={navLinkClass}>
           Home
         </NavLink>
-        <NavLink to={"/about"} className={navLinkClass}>
-          About Me
+        <NavLink to={"/skills"} className={navLinkClass}>
+          My Skills
         </NavLink>
         <NavLink to={"/works"} className={navLinkClass}>
           My Works

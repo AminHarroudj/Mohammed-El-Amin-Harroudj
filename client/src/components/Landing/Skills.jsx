@@ -16,8 +16,9 @@ import mongo from "../../assets/mongo.svg";
 import git from "../../assets/git.svg";
 import github from "../../assets/github.svg";
 import wordpress from "../../assets/wordpress.svg";
+import docker from "../../assets/docker.svg";
 
-function About() {
+function Skills() {
   const technologies = [
     { id: 1, title: "HTML", icon: html, color: "#e44d26" },
     { id: 2, title: "CSS", icon: css, color: "#1172b8" },
@@ -32,6 +33,7 @@ function About() {
     { id: 11, title: "Git", icon: git, color: "#ee513b" },
     { id: 12, title: "GitHub", icon: github, color: "#ffffff" },
     { id: 13, title: "Wordpress", icon: wordpress, color: "#00759d" },
+    { id: 14, title: "Docker", icon: docker, color: "#2396ed" },
   ];
 
   const cardVariants = {
@@ -104,4 +106,4 @@ function About() {
   );
 }
 
-export default About;
+export default Skills;
