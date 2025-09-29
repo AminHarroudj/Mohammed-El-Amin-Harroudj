@@ -69,6 +69,9 @@ function Navbar() {
           <NavLink to={"/works"} className={navLinkClass}>
             My Works
           </NavLink>
+          <NavLink to={"/courses"} className={navLinkClass}>
+            My Courses
+          </NavLink>
           <NavLink to={"/contact"} className={navLinkClass}>
             Contact Me
           </NavLink>
