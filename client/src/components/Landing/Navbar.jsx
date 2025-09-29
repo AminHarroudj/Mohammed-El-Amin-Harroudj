@@ -38,6 +38,9 @@ function Navbar() {
         <NavLink to={"/works"} className={navLinkClass}>
           My Works
         </NavLink>
+        <NavLink to={"/courses"} className={navLinkClass}>
+          My Courses
+        </NavLink>
         <NavLink to={"/contact"} className={navLinkClass}>
           Contact Me
         </NavLink>
@@ -51,23 +54,25 @@ function Navbar() {
       </button>
       <div
         className={`absolute top-full right-0 bg-background2 rounded-3xl mt-4 w-full max-w-sm mx-auto transform transition-all duration-300 ease-in-out p-6 ${
-          isMenuOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-4"
+          isMenuOpen
+            ? "opacity-100 visible translate-y-0"
+            : "opacity-0 invisible -translate-y-4"
         }`}
       >
         <nav className="lg:hidden flex flex-col items-center gap-4 font-medium">
-        <NavLink to={"/"} className={navLinkClass}>
-          Home
-        </NavLink>
-        <NavLink to={"/about"} className={navLinkClass}>
-          About Me
-        </NavLink>
-        <NavLink to={"/works"} className={navLinkClass}>
-          My Works
-        </NavLink>
-        <NavLink to={"/contact"} className={navLinkClass}>
-          Contact Me
-        </NavLink>
-      </nav>
+          <NavLink to={"/"} className={navLinkClass}>
+            Home
+          </NavLink>
+          <NavLink to={"/about"} className={navLinkClass}>
+            About Me
+          </NavLink>
+          <NavLink to={"/works"} className={navLinkClass}>
+            My Works
+          </NavLink>
+          <NavLink to={"/contact"} className={navLinkClass}>
+            Contact Me
+          </NavLink>
+        </nav>
       </div>
     </header>
   );

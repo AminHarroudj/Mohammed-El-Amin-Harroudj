@@ -10,6 +10,7 @@ import Home from "./components/Landing/Home";
 import Skills from "./components/Landing/Skills";
 import Works from "./components/Landing/Works";
 import Contact from "./components/Landing/Contact";
+import Courses from "./components/Landing/Courses";
 
 function App() {
   const location = useLocation();
@@ -22,6 +23,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/works" element={<Works />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/courses" element={<Courses />} />
         </Routes>
       </AnimatePresence>
     </>

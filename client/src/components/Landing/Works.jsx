@@ -160,8 +160,8 @@ function Works() {
             <motion.div
               style={{
                 overflowY: "scroll",
-                scrollbarWidth: "none", // Firefox
-                msOverflowStyle: "none", // IE 10+
+                scrollbarWidth: "none",
+                msOverflowStyle: "none",
               }}
               layoutId={selectedId.toString()}
               className="relative w-full max-w-4xl max-h-[600px] overflow-y-scroll bg-gradient-to-tl from-background1 to-background2 rounded-2xl border-2 border-primary shadow-[0_0_15px_#2962FF]"
