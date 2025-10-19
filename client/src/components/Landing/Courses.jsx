@@ -276,7 +276,7 @@ function Courses() {
                   </div>
                   <div className="flex items-center justify-center my-4">
                     <a
-                      href="https://wa.me/213556648005"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSeGeZkMTPRUvawHXELT5FOV3RnpF-DSnwFdlv4OSlcTX1q_7w/viewform?usp=header"
                       target="_blank"
                       className="bg-primary text-xl font-medium py-2 px-10 rounded-full cursor-pointer"
                     >
