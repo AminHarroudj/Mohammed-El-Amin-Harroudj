@@ -65,7 +65,6 @@ function Courses() {
           title: "Git & GitHub",
           lessons: [
             "Setup Git In Computer & Create GitHub Account & Push A Project To GitHub",
-            "Live Session For Revision ( Google Meet )",
           ],
         },
         {
@@ -278,7 +277,7 @@ function Courses() {
                     <a
                       href="https://docs.google.com/forms/d/e/1FAIpQLSeGeZkMTPRUvawHXELT5FOV3RnpF-DSnwFdlv4OSlcTX1q_7w/viewform?usp=header"
                       target="_blank"
-                      className="bg-primary text-xl font-medium py-2 px-10 rounded-full cursor-pointer"
+                      className="bg-primary text-xl font-medium py-2 px-10 rounded-full cursor-pointer hover:scale-105 duration-200"
                     >
                       Start Now
                     </a>
