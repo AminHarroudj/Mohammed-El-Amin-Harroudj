@@ -10,6 +10,7 @@ import tailwind from "../../assets/tailwind.svg";
 import nodejs from "../../assets/nodejs.svg";
 import mongo from "../../assets/mongo.svg";
 import wordpress from "../../assets/wordpress.svg";
+import psql from "../../assets/psql.svg";
 import { IoClose } from "react-icons/io5";
 import { RiShareBoxFill } from "react-icons/ri";
 import apl1 from "../../assets/apl1.png";
@@ -29,6 +30,21 @@ import wsc2 from "../../assets/wsc2.png";
 import wsc3 from "../../assets/wsc3.png";
 import wsc4 from "../../assets/wsc4.png";
 import wsc5 from "../../assets/wsc5.png";
+
+import aymen1 from "../../assets/aymen1.png";
+import aymen2 from "../../assets/aymen2.png";
+import aymen3 from "../../assets/aymen3.png";
+import aymen4 from "../../assets/aymen4.png";
+
+import stock1 from "../../assets/stock1.png";
+import stock2 from "../../assets/stock2.png";
+import stock3 from "../../assets/stock3.png";
+import stock4 from "../../assets/stock4.png";
+import stock5 from "../../assets/stock5.png";
+import stock6 from "../../assets/stock6.png";
+import stock7 from "../../assets/stock7.png";
+import stock8 from "../../assets/stock8.png";
+import stock9 from "../../assets/stock9.png";
 
 function Works() {
   const projects = [
@@ -68,6 +84,42 @@ function Works() {
       technologies: [{ title: "WordPress", icon: wordpress }],
       imgs: [wsc1, wsc2, wsc3, wsc4, wsc5],
       live: "https://worldspeakclass.com",
+    },
+    {
+      id: 4,
+      title: "Video Editor Portfolio",
+      details:
+        "A professional website for a Video Editor, showcasing completed projects, and services offered. The site includes an organized gallery of video samples, and a responsive design built with React JS and Tailwind CSS, ensuring seamless browsing on both desktop and mobile devices.",
+      technologies: [
+        { title: "React JS", icon: react },
+        { title: "Tailwind CSS", icon: tailwind },
+      ],
+      imgs: [aymen1, aymen2, aymen3, aymen4],
+      live: "https://aymen-djemaa.vercel.app",
+    },
+    {
+      id: 5,
+      title: "Stock Management System",
+      details:
+        "A full-featured Stock Management System designed to track and manage inventory efficiently. The platform allows users to add, update, and monitor products, view stock levels, and generate reports. Built with Next JS, Tailwind CSS, Node JS/Express JS, and PostgreSQL, ensuring a responsive, fast, and reliable experience on both desktop and mobile devices.",
+      technologies: [
+        { title: "Next JS", icon: react },
+        { title: "Tailwind CSS", icon: tailwind },
+        { title: "Node JS / Express JS", icon: nodejs },
+        { title: "PostgreSQL", icon: psql },
+      ],
+      imgs: [
+        stock1,
+        stock2,
+        stock3,
+        stock4,
+        stock5,
+        stock6,
+        stock7,
+        stock8,
+        stock9,
+      ],
+      live: "https://stock-management-virid.vercel.app/",
     },
   ];
 

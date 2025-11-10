@@ -63,8 +63,8 @@ function Navbar() {
           <NavLink to={"/"} className={navLinkClass}>
             Home
           </NavLink>
-          <NavLink to={"/about"} className={navLinkClass}>
-            About Me
+          <NavLink to={"/skills"} className={navLinkClass}>
+            My Skills
           </NavLink>
           <NavLink to={"/works"} className={navLinkClass}>
             My Works
