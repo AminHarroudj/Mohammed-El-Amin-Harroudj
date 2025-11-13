@@ -46,6 +46,14 @@ import stock7 from "../../assets/stock7.png";
 import stock8 from "../../assets/stock8.png";
 import stock9 from "../../assets/stock9.png";
 
+import madrid1 from "../../assets/madrid1.png";
+import madrid2 from "../../assets/madrid2.png";
+import madrid3 from "../../assets/madrid3.png";
+import madrid4 from "../../assets/madrid4.png";
+import madrid5 from "../../assets/madrid5.png";
+import madrid6 from "../../assets/madrid6.png";
+import madrid7 from "../../assets/madrid7.png";
+
 function Works() {
   const projects = [
     {
@@ -120,6 +128,18 @@ function Works() {
         stock9,
       ],
       live: "https://stock-management-virid.vercel.app/",
+    },
+    {
+      id: 6,
+      title: "Madrid School",
+      details:
+        "Madrid School is an online educational platform offering high-quality tutoring courses for students. The platform provides an intuitive interface for exploring courses, learning about instructors, and reading student testimonials. Built with React JS and Tailwind CSS, it delivers a modern, responsive, and user-friendly experience on all devices.",
+      technologies: [
+        { title: "React JS", icon: react },
+        { title: "Tailwind CSS", icon: tailwind },
+      ],
+      imgs: [madrid1, madrid2, madrid3, madrid4, madrid5, madrid6, madrid7],
+      live: "https://madrid-school.vercel.app",
     },
   ];
 
