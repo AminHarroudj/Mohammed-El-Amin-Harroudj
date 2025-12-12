@@ -13,11 +13,6 @@ import wordpress from "../../assets/wordpress.svg";
 import psql from "../../assets/psql.svg";
 import { IoClose } from "react-icons/io5";
 import { RiShareBoxFill } from "react-icons/ri";
-import apl1 from "../../assets/apl1.png";
-import apl2 from "../../assets/apl2.png";
-import apl3 from "../../assets/apl3.png";
-import apl4 from "../../assets/apl4.png";
-import apl5 from "../../assets/apl5.png";
 
 import goat1 from "../../assets/goat1.png";
 import goat2 from "../../assets/goat2.png";
@@ -68,24 +63,10 @@ function Works() {
         { title: "Mongo DB", icon: mongo },
       ],
       imgs: [goat1, goat2, goat3, goat4, goat5],
-      live: "https://goat-store-dz.com",
+      live: "https://goatstoredz.com",
     },
     {
       id: 2,
-      title: "APL TECH DZ",
-      details:
-        "A complete e-commerce solution for PC components and custom PC building. The platform combines a sleek landing page with an admin dashboard for managing products, custom builds, and orders. Developed with React and Tailwind CSS for a smooth user experience, and powered by Node.js/Express.js and MongoDB for robust backend operations.",
-      technologies: [
-        { title: "React JS", icon: react },
-        { title: "Tailwind CSS", icon: tailwind },
-        { title: "Node JS / Express JS", icon: nodejs },
-        { title: "Mongo DB", icon: mongo },
-      ],
-      imgs: [apl1, apl2, apl3, apl4, apl5],
-      live: "https://apltech.dz",
-    },
-    {
-      id: 3,
       title: "WORLDSPEAK CLASS",
       details:
         "A professional website for an English language institute, offering online registration for students and a secure certificate verification system for graduates. Developed on WordPress to allow easy content management while maintaining a professional and responsive design, optimized for both desktop and mobile users.",
@@ -94,7 +75,7 @@ function Works() {
       live: "https://worldspeakclass.com",
     },
     {
-      id: 4,
+      id: 3,
       title: "Video Editor Portfolio",
       details:
         "A professional website for a Video Editor, showcasing completed projects, and services offered. The site includes an organized gallery of video samples, and a responsive design built with React JS and Tailwind CSS, ensuring seamless browsing on both desktop and mobile devices.",
@@ -106,7 +87,7 @@ function Works() {
       live: "https://aymen-djemaa.vercel.app",
     },
     {
-      id: 5,
+      id: 4,
       title: "Stock Management System",
       details:
         "A full-featured Stock Management System designed to track and manage inventory efficiently. The platform allows users to add, update, and monitor products, view stock levels, and generate reports. Built with Next JS, Tailwind CSS, Node JS/Express JS, and PostgreSQL, ensuring a responsive, fast, and reliable experience on both desktop and mobile devices.",
@@ -127,10 +108,10 @@ function Works() {
         stock8,
         stock9,
       ],
-      live: "https://stock-management-virid.vercel.app/",
+      live: "https://stock.goatstoredz.com/",
     },
     {
-      id: 6,
+      id: 5,
       title: "Madrid School",
       details:
         "Madrid School is an online educational platform offering high-quality tutoring courses for students. The platform provides an intuitive interface for exploring courses, learning about instructors, and reading student testimonials. Built with React JS and Tailwind CSS, it delivers a modern, responsive, and user-friendly experience on all devices.",
