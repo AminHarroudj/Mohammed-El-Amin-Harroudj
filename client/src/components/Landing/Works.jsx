@@ -49,6 +49,14 @@ import madrid5 from "../../assets/madrid5.png";
 import madrid6 from "../../assets/madrid6.png";
 import madrid7 from "../../assets/madrid7.png";
 
+import ambyte1 from "../../assets/ambyte1.webp";
+import ambyte2 from "../../assets/ambyte2.webp";
+import ambyte3 from "../../assets/ambyte3.webp";
+
+import moussa1 from "../../assets/moussa1.webp";
+import moussa2 from "../../assets/moussa2.webp";
+import moussa3 from "../../assets/moussa3.webp";
+
 function Works() {
   const projects = [
     {
@@ -108,7 +116,7 @@ function Works() {
         stock8,
         stock9,
       ],
-      live: "https://stock.goatstoredz.com/",
+      live: "https://stock.goatstoredz.com",
     },
     {
       id: 5,
@@ -121,6 +129,32 @@ function Works() {
       ],
       imgs: [madrid1, madrid2, madrid3, madrid4, madrid5, madrid6, madrid7],
       live: "https://madrid-school.vercel.app",
+    },
+    {
+      id: 5,
+      title: "Ambyte Agency",
+      details:
+        "A modern digital services agency landing page designed to help businesses establish a strong online presence. The platform features a clean, responsive interface with a high-impact hero section, clear service showcases, and conversion-focused call-to-actions. It highlights web development, design, and digital marketing solutions while building trust through structured content and modern visuals. Built with React and Tailwind CSS for speed and flexibility, ensuring optimal performance, scalability, and a seamless experience across all devices.",
+      technologies: [
+        { title: "React JS", icon: react },
+        { title: "Tailwind CSS", icon: tailwind },
+      ],
+      imgs: [ambyte1, ambyte2, ambyte3],
+      live: "https://ambyte-agency.vercel.app",
+    },
+    {
+      id: 5,
+      title: "Moussa Boulechfar",
+      details:
+        "An e-commerce website specialized in the production and distribution of high-quality animal feed, designed with a modern, fully responsive interface. The platform features a visually engaging landing page, detailed product listings, and a smooth shopping experience for customers. It also includes a powerful admin dashboard for managing products, orders, and inventory. Built using the MERN stack (MongoDB, Express.js, React, Node.js) with Tailwind CSS, ensuring high performance, scalability, and a seamless user experience across all devices.",
+      technologies: [
+        { title: "React JS", icon: react },
+        { title: "Tailwind CSS", icon: tailwind },
+        { title: "Node JS / Express JS", icon: nodejs },
+        { title: "Mongo DB", icon: mongo },
+      ],
+      imgs: [moussa1, moussa2, moussa3],
+      live: "https://moussaboulechfar.com",
     },
   ];
 
