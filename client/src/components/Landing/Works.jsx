@@ -57,6 +57,14 @@ import moussa1 from "../../assets/moussa1.webp";
 import moussa2 from "../../assets/moussa2.webp";
 import moussa3 from "../../assets/moussa3.webp";
 
+import eldjawhara1 from "../../assets/eldjawhara1.webp";
+import eldjawhara2 from "../../assets/eldjawhara2.webp";
+import eldjawhara3 from "../../assets/eldjawhara3.webp";
+import eldjawhara4 from "../../assets/eldjawhara4.webp";
+import eldjawhara5 from "../../assets/eldjawhara5.webp";
+import eldjawhara6 from "../../assets/eldjawhara6.webp";
+import eldjawhara7 from "../../assets/eldjawhara7.webp";
+
 function Works() {
   const projects = [
     {
@@ -131,7 +139,7 @@ function Works() {
       live: "https://madrid-school.vercel.app",
     },
     {
-      id: 5,
+      id: 6,
       title: "Ambyte Agency",
       details:
         "A modern digital services agency landing page designed to help businesses establish a strong online presence. The platform features a clean, responsive interface with a high-impact hero section, clear service showcases, and conversion-focused call-to-actions. It highlights web development, design, and digital marketing solutions while building trust through structured content and modern visuals. Built with React and Tailwind CSS for speed and flexibility, ensuring optimal performance, scalability, and a seamless experience across all devices.",
@@ -143,7 +151,7 @@ function Works() {
       live: "https://ambyte-agency.vercel.app",
     },
     {
-      id: 5,
+      id: 7,
       title: "Moussa Boulechfar",
       details:
         "An e-commerce website specialized in the production and distribution of high-quality animal feed, designed with a modern, fully responsive interface. The platform features a visually engaging landing page, detailed product listings, and a smooth shopping experience for customers. It also includes a powerful admin dashboard for managing products, orders, and inventory. Built using the MERN stack (MongoDB, Express.js, React, Node.js) with Tailwind CSS, ensuring high performance, scalability, and a seamless user experience across all devices.",
@@ -155,6 +163,26 @@ function Works() {
       ],
       imgs: [moussa1, moussa2, moussa3],
       live: "https://moussaboulechfar.com",
+    },
+    {
+      id: 8,
+      title: "El Djawhara Confiserie",
+      details:
+        "A corporate website developed to showcase the story, mission, and premium creations of El Djawhara, a family-owned Algerian artisan confectionery founded in 2010 in Constantine. The website highlights the brand’s heritage, craftsmanship, and commitment to excellence through a clean, elegant design that reflects its high-end identity. It presents the company’s evolution, values, and product creativity while offering visitors a refined and engaging user experience.",
+      technologies: [
+        { title: "React JS", icon: react },
+        { title: "Tailwind CSS", icon: tailwind },
+      ],
+      imgs: [
+        eldjawhara1,
+        eldjawhara2,
+        eldjawhara3,
+        eldjawhara4,
+        eldjawhara5,
+        eldjawhara6,
+        eldjawhara7,
+      ],
+      live: "https://eldjawharadz.com",
     },
   ];
 
